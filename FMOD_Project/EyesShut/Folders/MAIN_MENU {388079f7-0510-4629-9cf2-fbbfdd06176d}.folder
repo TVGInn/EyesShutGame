@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="Folder" id="{388079f7-0510-4629-9cf2-fbbfdd06176d}">
+        <property name="name">
+            <value>MAIN_MENU</value>
+        </property>
+        <relationship name="folder">
+            <destination>{8aed14d1-696d-4584-b585-abe3588202df}</destination>
+        </relationship>
+    </object>
+</objects>
