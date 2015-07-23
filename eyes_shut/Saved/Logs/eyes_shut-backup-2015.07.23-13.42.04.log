@@ -1,0 +1,1418 @@
+﻿[2015.07.23-17.08.52:555][  0]Log file open, 07/23/15 13:08:52
+[2015.07.23-17.08.52:555][  0]LogInit:Display: Running engine for game: eyes_shut
+[2015.07.23-17.08.52:555][  0]LogInit:Display: RandInit(1367939782) SRandInit(1367939782).
+[2015.07.23-17.08.52:555][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.07.23-17.08.52:555][  0]LogStats: Stats thread started
+[2015.07.23-17.08.52:555][  0]LogInit: Version: 4.8.2-2614606+++depot+UE4-Releases+4.8
+[2015.07.23-17.08.52:555][  0]LogInit: API Version: 2579680
+[2015.07.23-17.08.52:555][  0]LogInit: Compiled (64-bit): Jul  8 2015 23:43:41
+[2015.07.23-17.08.52:555][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.07.23-17.08.52:555][  0]LogInit: Build Configuration: Development
+[2015.07.23-17.08.52:555][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.07.23-17.08.52:555][  0]LogInit: Command line:  
+[2015.07.23-17.08.52:555][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.07.23-17.08.52:555][  0]LogInit: Rocket: 1
+[2015.07.23-17.08.52:582][  0]LogInit: Using libcurl 7.41.0
+[2015.07.23-17.08.52:582][  0]LogInit:  - built for x86_64-pc-win32
+[2015.07.23-17.08.52:582][  0]LogInit:  - supports SSL with WinSSL
+[2015.07.23-17.08.52:582][  0]LogInit:  - other features:
+[2015.07.23-17.08.52:582][  0]LogInit:      CURL_VERSION_SSL
+[2015.07.23-17.08.52:582][  0]LogInit:      CURL_VERSION_IPV6
+[2015.07.23-17.08.52:582][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.07.23-17.08.52:583][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.07.23-17.08.52:583][  0]LogInit:      CURL_VERSION_IDN
+[2015.07.23-17.08.52:583][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.07.23-17.08.52:583][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.07.23-17.08.52:583][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.07.23-17.08.52:583][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.07.23-17.08.52:583][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.07.23-17.08.52:603][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.07.23-17.08.52:624][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.07.23-17.08.52:632][  0]LogInit: Object subsystem initialized
+[2015.07.23-17.08.52:633][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.07.23-17.08.52:633][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.23-17.08.52:633][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.07.23-17.08.52:633][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.23-17.08.52:633][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.07.23-17.08.52:633][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.23-17.08.52:634][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.23-17.08.52:634][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.07.23-17.08.52:641][  0]LogInit: Computer: PIOUSINQUISITOR
+[2015.07.23-17.08.52:641][  0]LogInit: User: Dominic
+[2015.07.23-17.08.52:641][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.07.23-17.08.52:641][  0]LogInit: High frequency timer resolution =3.330100 MHz
+[2015.07.23-17.08.52:641][  0]LogMemory: Memory total: Physical=19.9GB (20GB approx)
+[2015.07.23-17.08.52:641][  0]LogMemory: Platform Memory Stats for Windows
+[2015.07.23-17.08.52:641][  0]LogMemory: Process Physical Memory: 48.19 MB used, 48.19 MB peak
+[2015.07.23-17.08.52:641][  0]LogMemory: Process Virtual Memory: 22.17 MB used, 22.17 MB peak
+[2015.07.23-17.08.52:641][  0]LogMemory: Physical Memory: 5350.68 MB used, 20397.11 MB total
+[2015.07.23-17.08.52:641][  0]LogMemory: Virtual Memory: 295.60 MB used, 134217728.00 MB total
+[2015.07.23-17.08.52:688][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.07.23-17.08.52:901][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.07.23-17.08.53:372][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 560 Ti   (Feature Level 11_0)
+[2015.07.23-17.08.53:372][  0]LogD3D11RHI: Adapter has 973MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 2 output[s]
+[2015.07.23-17.08.53:375][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 3000 (Feature Level 10_0)
+[2015.07.23-17.08.53:375][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
+[2015.07.23-17.08.53:377][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.07.23-17.08.53:377][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.07.23-17.08.53:377][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.07.23-17.08.53:381][  0]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.08.53:381][  0]LogD3D11RHI: !Direct3DDevice
+[2015.07.23-17.08.53:381][  0]LogRHI: Texture pool is 681 MB (70% of 973 MB)
+[2015.07.23-17.08.53:392][  0]LogD3D11RHI: Async texture creation enabled
+[2015.07.23-17.08.53:409][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.07.23-17.08.54:326][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.07.23-17.08.54:355][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.07.23-17.08.54:378][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.07.23-17.08.54:400][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.07.23-17.08.54:422][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.07.23-17.08.54:440][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.07.23-17.08.54:460][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.07.23-17.08.54:479][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.07.23-17.08.54:497][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.07.23-17.08.54:515][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.07.23-17.08.54:534][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.07.23-17.08.54:552][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.07.23-17.08.54:617][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.07.23-17.08.54:635][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.07.23-17.08.54:655][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.07.23-17.08.54:677][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.07.23-17.08.54:677][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.07.23-17.08.55:026][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.07.23-17.08.55:100][  0]LogDerivedDataCache: Loaded boot cache 0.07s 53MB C:/Users/Dominic/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.23-17.08.55:100][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Dominic/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.07.23-17.08.55:100][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.07.23-17.08.55:100][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.07.23-17.08.55:100][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.07.23-17.08.55:100][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.07.23-17.08.55:253][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.07.23-17.08.55:265][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dominic/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.07.23-17.08.55:562][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.23-17.08.55:656][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.23-17.08.55:657][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.23-17.08.55:696][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.07.23-17.08.55:696][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.07.23-17.08.56:129][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.07.23-17.08.57:577][  0]LogFMODOculus: StartupModule
+[2015.07.23-17.08.57:617][  0]LogFMOD: FFMODStudioModule startup
+[2015.07.23-17.08.57:617][  0]LogFMOD:  Lib path = '../../../Engine/Plugins/FMODStudio/Binaries'
+[2015.07.23-17.08.57:617][  0]LogFMOD: FFMODStudioModule::LoadDll: Loading ../../../Engine/Plugins/FMODStudio/Binaries/Win64/fmodL64.dll
+[2015.07.23-17.08.57:619][  0]LogFMOD: FFMODStudioModule::LoadDll: Loading ../../../Engine/Plugins/FMODStudio/Binaries/Win64/fmodstudioL64.dll
+[2015.07.23-17.08.57:621][  0]LogFMOD: Loading strings bank: ../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Content/FMOD/Desktop/Master Bank.strings.bank
+[2015.07.23-17.08.57:709][  0]LogFMOD: Skipping asset: bus:/
+[2015.07.23-17.08.57:709][  0]LogFMOD: Constructing asset: /Game/FMOD/Banks/Master_Bank
+[2015.07.23-17.08.57:738][  0]LogAssetRegistry: FAssetRegistry took 0.0114 seconds to start up
+[2015.07.23-17.08.57:760][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.07.23-17.08.57:761][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/GUI/MAIN_MENU/GUI_MM_btn_Clicked
+[2015.07.23-17.08.57:761][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/GUI/MAIN_MENU/GUI_MM_Music
+[2015.07.23-17.08.57:761][  0]LogFMOD: Skipping asset: bank:/Master Bank.strings
+[2015.07.23-17.08.57:761][  0]LogFMOD: Constructing asset: /Game/FMOD/Buses/Reverb
+[2015.07.23-17.08.57:810][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.07.23-17.08.58:247][  0]SourceControl: Info Source control is disabled
+[2015.07.23-17.08.58:283][  0]SourceControl: Info Source control is disabled
+[2015.07.23-17.08.58:300][  0]SourceControl: Info Source control is disabled
+[2015.07.23-17.08.58:316][  0]SourceControl: Info Source control is disabled
+[2015.07.23-17.08.58:436][  0]LogFMOD: FFMODStudioEditorModule startup
+[2015.07.23-17.08.58:733][  0]LogObj: 26631 objects as part of root set at end of initial load.
+[2015.07.23-17.08.58:733][  0]LogUObjectAllocator: 5474264 out of 0 bytes used by permanent object pool.
+[2015.07.23-17.08.58:818][  0]LogEngine: Initializing Engine...
+[2015.07.23-17.08.58:821][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.07.23-17.08.58:823][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.07.23-17.08.59:012][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.07.23-17.08.59:021][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.23-17.08.59:031][  0]LogInit: FAudioDevice initialized.
+[2015.07.23-17.08.59:064][  0]LogDerivedDataCache: Saved boot cache 0.03s 53MB C:/Users/Dominic/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.23-17.08.59:076][  0]LogInit: Texture streaming: Disabled
+[2015.07.23-17.08.59:114][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.07.23-17.08.59:114][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.2-2614606+++depot+UE4-Releases+4.8
+[2015.07.23-17.08.59:114][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 4fcd70534ff1172360103f9a3a1db6d3|9a7113778c324a5ebfbe2ee726f02543|84a57b91-18ae-458e-afbc-5b87e8cc574d
+[2015.07.23-17.08.59:114][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.07.23-17.08.59:170][  0]LogInit: Transaction tracking system initialized
+[2015.07.23-17.08.59:379][  0]BlueprintLog: New page: Editor Load
+[2015.07.23-17.09.00:478][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.07.23-17.09.00:478][  0]LogConsoleResponse:Display: 
+[2015.07.23-17.09.00:623][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.07.23-17.09.00:916][  0]SourceControl: Info Source control is disabled
+[2015.07.23-17.09.00:916][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Content/mainmenu_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.23-17.09.00:917][  0]LightingResults: New page: Lighting Build
+[2015.07.23-17.09.00:936][  0]MapCheck: New page: Map Check
+[2015.07.23-17.09.00:936][  0]LightingResults: New page: Lighting Build
+[2015.07.23-17.09.00:950][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B399B9A8E0
+[2015.07.23-17.09.01:250][  0]LogAIModule: Creating AISystem for world mainmenu_Level
+[2015.07.23-17.09.01:252][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.23-17.09.01:254][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.07.23-17.09.01:340][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 86.733ms to complete.
+[2015.07.23-17.09.01:340][  0]LogFileHelpers: Loading map 'mainmenu_Level' took 0.424
+[2015.07.23-17.09.01:472][  0]LogCollectionManager: Loaded 0 collections in 0.002434 seconds
+[2015.07.23-17.09.01:481][  0]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 1821 classes and 314 folders.
+[2015.07.23-17.09.01:561][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2015.07.23-17.09.01:608][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.07.23-17.09.01:634][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2015.07.23-17.09.01:708][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.07.23-17.09.01:741][  0]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.09.01:750][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.07.23-17.09.01:773][  0]LogLoad: Full Startup: 11.00 seconds (BP compile: 0.27 seconds)
+[2015.07.23-17.09.01:782][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.07.23-17.09.01:853][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.07.23-17.09.01:887][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.07.23-17.09.02:011][  0]LogRenderer: Reallocating scene render targets to support 1224x616 (Frame:2).
+[2015.07.23-17.09.02:147][  1]LogFMOD: File has changed: ../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Content/FMOD/Desktop/Master Bank.strings.bank
+[2015.07.23-17.09.02:147][  1]LogFMOD: Loading strings bank: ../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Content/FMOD/Desktop/Master Bank.strings.bank
+[2015.07.23-17.09.02:207][  1]LogFMOD: Skipping asset: bus:/
+[2015.07.23-17.09.02:207][  1]LogFMOD: Skipping asset: bank:/Master Bank.strings
+[2015.07.23-17.09.02:218][  1]LogFMOD:Warning: e:\jk\workspace\Build__1.6rel__UE4Libs_Win\lowlevel_api\src\fmod_systemi.cpp(2615) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.07.23-17.09.02:335][  1]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.09.02:555][  7]LogAssetRegistry: Asset discovery search completed in 4.8294 seconds
+[2015.07.23-17.09.02:983][ 55]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.09.07:507][588]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.09.07:544][588]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.09.16:057][ 21]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.09.16:100][ 21]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/October_Crow" FILE="../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Content/October_Crow.uasset" SILENT=true
+[2015.07.23-17.09.16:121][ 21]LogSavePackage: Save=11.907750ms
+[2015.07.23-17.09.16:121][ 21]LogSavePackage: Moving '../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Saved/October_Crow913EB4814198DD6372BA6C8DED8CE36E.tmp' to '../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Content/October_Crow.uasset'
+[2015.07.23-17.09.23:986][862]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.09.24:058][862]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.23-17.09.24:251][862]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.23-17.10.24:984][ 21]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.10.28:991][480]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.10.29:013][480]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/October_Crow" FILE="../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Content/October_Crow.uasset" SILENT=true
+[2015.07.23-17.10.29:037][480]LogSavePackage: Save=18.683823ms
+[2015.07.23-17.10.29:037][480]LogSavePackage: Moving '../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Saved/October_Crow61BBDD5C4FF0470F38AE54BD0C8D7BC3.tmp' to '../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Content/October_Crow.uasset'
+[2015.07.23-17.10.58:288][152]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.11.00:758][271]LogEditorTransaction: Undo Move Widget
+[2015.07.23-17.11.00:806][271]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.12.19:083][ 23]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.12.29:704][585]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.13.21:765][599]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.13.22:444][637]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.13.25:269][788]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.13.26:711][855]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.13.40:404][587]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.13.51:553][192]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.13.57:676][537]BlueprintLog: New page: Compile mainmenu
+[2015.07.23-17.13.57:895][537]BlueprintEditorCompileResults: Info [0307.12] Compile of mainmenu successful! [in 219 ms]
+[2015.07.23-17.13.58:252][555]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.13.58:274][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mainmenu" FILE="../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Content/mainmenu.uasset" SILENT=true
+[2015.07.23-17.13.58:353][555]LogSavePackage: Save=72.399925ms
+[2015.07.23-17.13.58:353][555]LogSavePackage: Moving '../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Saved/mainmenuA9EB65C4406ACAE5C97840AD4DC792DD.tmp' to '../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Content/mainmenu.uasset'
+[2015.07.23-17.14.12:823][193]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.14.28:026][944]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.14.30:313][208]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.14.31:888][387]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.14.33:692][591]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.14.36:095][863]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.14.37:751][ 50]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.14.50:646][756]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.14.50:664][756]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/October_Crow" FILE="../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Content/October_Crow.uasset" SILENT=true
+[2015.07.23-17.14.50:688][756]LogSavePackage: Save=18.284136ms
+[2015.07.23-17.14.50:688][756]LogSavePackage: Moving '../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Saved/October_Crow18C011EF4DEB5EEC9CC619B45246D1E0.tmp' to '../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Content/October_Crow.uasset'
+[2015.07.23-17.15.15:618][880]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.15.22:312][231]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/mainmenu.SKEL_mainmenu_C:WidgetTree_44.CanvasPanel_0
+[2015.07.23-17.15.22:312][231]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_1.WidgetTree_12.CanvasPanel_0
+[2015.07.23-17.15.22:312][231]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_4.WidgetTree_22.CanvasPanel_0
+[2015.07.23-17.15.22:312][231]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_6.WidgetTree_30.CanvasPanel_0
+[2015.07.23-17.15.22:312][231]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_SKEL_mainmenu_C_14:WidgetTree_44.CanvasPanel_0
+[2015.07.23-17.15.22:312][231]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/mainmenu.mainmenu_C:WidgetTree_56.CanvasPanel_0
+[2015.07.23-17.15.22:312][231]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_2.WidgetTree_61.CanvasPanel_0
+[2015.07.23-17.15.22:312][231]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/mainmenu.mainmenu_C:WidgetTree_60.CanvasPanel_0
+[2015.07.23-17.15.22:312][231]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_8.WidgetTree_38.CanvasPanel_0
+[2015.07.23-17.15.22:312][231]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/mainmenu.SKEL_mainmenu_C:WidgetTree_59.CanvasPanel_0
+[2015.07.23-17.15.22:313][231]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_0.WidgetTree_58.CanvasPanel_0
+[2015.07.23-17.15.22:313][231]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_0.WidgetTree_42.CanvasPanel_0
+[2015.07.23-17.15.22:313][231]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_mainmenu_C_12:WidgetTree_41.CanvasPanel_0
+[2015.07.23-17.15.22:313][231]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/mainmenu.mainmenu_C:WidgetTree_57.CanvasPanel_0
+[2015.07.23-17.15.22:313][231]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1191) from referencer (Button /Engine/UMG/Editor/Transient.btn_Play).  Import failed...
+[2015.07.23-17.15.22:313][231]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_1191''
+[2015.07.23-17.15.22:317][231]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.15.48:140][727]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.15.50:197][830]LogEditorTransaction: Undo Move Widget
+[2015.07.23-17.15.50:253][830]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.15.51:043][865]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.15.51:812][898]LogEditorTransaction: Undo Move Widget
+[2015.07.23-17.15.56:105][125]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.16.11:472][586]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.16.16:327][846]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.16.26:596][385]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.16.28:144][468]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.16.30:891][610]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.16.32:849][707]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.16.33:530][738]LogEditorTransaction: Undo Move Widget
+[2015.07.23-17.16.33:593][738]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.16.34:135][761]LogEditorTransaction: Undo Move Widget
+[2015.07.23-17.16.34:635][781]LogEditorTransaction: Undo Move Widget
+[2015.07.23-17.16.34:644][781]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_152:K2Node_ComponentBoundEvent_63.
+[2015.07.23-17.16.34:644][781]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_152:K2Node_ComponentBoundEvent_239.
+[2015.07.23-17.16.34:644][781]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_152:K2Node_ComponentBoundEvent_228.
+[2015.07.23-17.16.35:104][798]LogEditorTransaction: Undo Move Widget
+[2015.07.23-17.16.35:113][798]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_145:K2Node_ComponentBoundEvent_63.
+[2015.07.23-17.16.35:113][798]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_145:K2Node_ComponentBoundEvent_239.
+[2015.07.23-17.16.35:113][798]LogBlueprint:Warning: Loaded invalid component bound event in node /Engine/Transient.EdGraph_145:K2Node_ComponentBoundEvent_228.
+[2015.07.23-17.16.36:199][846]LogEditorTransaction: Undo Move Widget
+[2015.07.23-17.16.36:672][865]LogEditorTransaction: Undo Move Widget
+[2015.07.23-17.16.45:734][363]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.16.46:333][398]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.16.47:419][462]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.16.48:019][496]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.17.03:231][320]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.17.22:967][406]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.18.06:802][360]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.18.09:212][473]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.18.17:274][905]BlueprintLog: New page: Compile mainmenu
+[2015.07.23-17.18.17:488][905]BlueprintEditorCompileResults: Info [0566.72] Compile of mainmenu successful! [in 213 ms]
+[2015.07.23-17.18.17:880][928]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.18.17:901][928]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mainmenu" FILE="../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Content/mainmenu.uasset" SILENT=true
+[2015.07.23-17.18.17:980][928]LogSavePackage: Save=72.611031ms
+[2015.07.23-17.18.17:980][928]LogSavePackage: Moving '../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Saved/mainmenu650F14A6415E7F2F819E29BF62BFEF52.tmp' to '../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Content/mainmenu.uasset'
+[2015.07.23-17.18.19:341][  5]LogFMOD: Creating Studio System
+[2015.07.23-17.18.19:352][  5]LogFMOD:Warning: e:\jk\workspace\Build__1.6rel__UE4Libs_Win\lowlevel_api\src\fmod_systemi.cpp(2615) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.07.23-17.18.19:355][  5]LogFMOD: Triggering Initialized on other modules
+[2015.07.23-17.18.19:355][  5]LogFMOD: Loading Banks
+[2015.07.23-17.18.19:455][  5]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.23-17.18.19:465][  5]LogPlayLevel: [PIE] Compiling mainmenu_Level before PIE...
+[2015.07.23-17.18.19:576][  5]LogPlayLevel: PIE:  Blueprint regeneration took 121 ms (1 blueprints)
+[2015.07.23-17.18.19:579][  5]PIE: New page: PIE session: mainmenu_Level (Jul 23, 2015, 9:18:19 AM)
+[2015.07.23-17.18.19:579][  5]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_mainmenu_Level
+[2015.07.23-17.18.19:582][  5]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002464s)
+[2015.07.23-17.18.19:582][  5]LogAIModule: Creating AISystem for world mainmenu_Level
+[2015.07.23-17.18.19:583][  5]LogPlayLevel: PIE: World Init took: (0.001274s)
+[2015.07.23-17.18.19:583][  5]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/mainmenu_Level.mainmenu_Level to /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level (0.003920s)
+[2015.07.23-17.18.19:627][  5]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.23-17.18.19:635][  5]LogInit: FAudioDevice initialized.
+[2015.07.23-17.18.19:704][  5]LogWorld: Game class is 'GameMode'
+[2015.07.23-17.18.19:706][  5]LogWorld: Bringing World /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level up for play (max tick rate 0) at 2015.07.23-13.18.19
+[2015.07.23-17.18.19:706][  5]LogActor:Warning: GameSession /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.23-17.18.19:707][  5]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.23-17.18.19:707][  5]LogWorld: Bringing up level for play took: 0.001064
+[2015.07.23-17.18.19:710][  5]LogFMOD: LoadBank Master_Bank
+[2015.07.23-17.18.19:710][  5]PIE: Info Play in editor start time for /Game/UEDPIE_0_mainmenu_Level 0.549
+[2015.07.23-17.18.19:785][  6]LogFMOD:Warning: e:\jk\workspace\Build__1.6rel__UE4Libs_Win\studio_api\src\fmod_bank_loader.cpp(66) - Failed to open file '../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Content/FMOD/Desktop/Master_Bank.bank'
+
+[2015.07.23-17.18.19:824][  7]LogFMOD:Warning: e:\jk\workspace\Build__1.6rel__UE4Libs_Win\studio_api\src\fmod_playback_instrument.cpp(1072) - Loading delay exceeded, sound may play at incorrect time
+
+[2015.07.23-17.18.31:455][627]LogFMOD:Warning: e:\jk\workspace\Build__1.6rel__UE4Libs_Win\lowlevel_api\src\fmod_systemi.cpp(770) - mDSPCachePool not cleaned up properly!. 32 bytes remaining.
+
+[2015.07.23-17.18.31:457][627]LogFMOD:Warning: Failed to stop event instance
+[2015.07.23-17.18.31:581][628]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B3946072E0
+[2015.07.23-17.18.47:825][642]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.19.31:030][920]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.19.35:718][160]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.19.56:259][297]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.19.58:496][422]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.19.59:935][506]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.20.01:015][586]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.20.02:388][683]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.20.02:776][706]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.20.03:930][784]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.20.05:217][862]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.20.06:610][962]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.20.07:549][ 16]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.20.08:564][ 76]LogUObjectHash:Warning: Ambiguous search, could be Button /Game/mainmenu.mainmenu:WidgetTree.btn_Play or Button /Game/mainmenu.mainmenu_C:WidgetTree_192.btn_Play
+[2015.07.23-17.20.08:564][ 76]LogUObjectHash:Warning: Ambiguous search, could be Button /Game/mainmenu.mainmenu:WidgetTree.btn_Play or Button /Engine/Transient.World_3:mainmenu_C_1.WidgetTree_12.btn_Play
+[2015.07.23-17.20.08:564][ 76]LogUObjectHash:Warning: Ambiguous search, could be Button /Game/mainmenu.mainmenu:WidgetTree.btn_Play or Button /Engine/Transient.World_3:mainmenu_C_4.WidgetTree_22.btn_Play
+[2015.07.23-17.20.08:564][ 76]LogUObjectHash:Warning: Ambiguous search, could be Button /Game/mainmenu.mainmenu:WidgetTree.btn_Play or Button /Engine/Transient.World_3:mainmenu_C_6.WidgetTree_30.btn_Play
+[2015.07.23-17.20.08:564][ 76]LogUObjectHash:Warning: Ambiguous search, could be Button /Game/mainmenu.mainmenu:WidgetTree.btn_Play or Button /Engine/Transient.World_3:mainmenu_C_8.WidgetTree_38.btn_Play
+[2015.07.23-17.20.08:564][ 76]LogUObjectHash:Warning: Ambiguous search, could be Button /Game/mainmenu.mainmenu:WidgetTree.btn_Play or Button /Game/mainmenu.SKEL_mainmenu_C:WidgetTree_195.btn_Play
+[2015.07.23-17.20.08:564][ 76]LogUObjectHash:Warning: Ambiguous search, could be Button /Game/mainmenu.mainmenu:WidgetTree.btn_Play or Button /Engine/Transient.World_3:REINST_mainmenu_C_0.WidgetTree_42.btn_Play
+[2015.07.23-17.20.08:564][ 76]LogUObjectHash:Warning: Ambiguous search, could be Button /Game/mainmenu.mainmenu:WidgetTree.btn_Play or ObjectProperty /Engine/Transient.REINST_mainmenu_C_12:btn_Play
+[2015.07.23-17.20.08:564][ 76]LogUObjectHash:Warning: Ambiguous search, could be Button /Game/mainmenu.mainmenu:WidgetTree.btn_Play or Button /Engine/Transient.REINST_mainmenu_C_12:WidgetTree_41.btn_Play
+[2015.07.23-17.20.08:564][ 76]LogUObjectHash:Warning: Ambiguous search, could be Button /Game/mainmenu.mainmenu:WidgetTree.btn_Play or Button /Engine/Transient.World_3:mainmenu_C_0.WidgetTree_58.btn_Play
+[2015.07.23-17.20.08:564][ 76]LogUObjectHash:Warning: Ambiguous search, could be Button /Game/mainmenu.mainmenu:WidgetTree.btn_Play or ObjectProperty /Game/mainmenu.SKEL_mainmenu_C:btn_Play
+[2015.07.23-17.20.08:564][ 76]LogUObjectHash:Warning: Ambiguous search, could be Button /Game/mainmenu.mainmenu:WidgetTree.btn_Play or Button /Engine/Transient.World_3:mainmenu_C_29.WidgetTree_143.btn_Play
+[2015.07.23-17.20.08:564][ 76]LogUObjectHash:Warning: Ambiguous search, could be Button /Game/mainmenu.mainmenu:WidgetTree.btn_Play or Button /Engine/UMG/Editor/Transient.btn_Play
+[2015.07.23-17.20.08:564][ 76]LogUObjectHash:Warning: Ambiguous search, could be Button /Game/mainmenu.mainmenu:WidgetTree.btn_Play or ObjectProperty /Engine/Transient.REINST_SKEL_mainmenu_C_36:btn_Play
+[2015.07.23-17.20.08:564][ 76]LogUObjectHash:Warning: Ambiguous search, could be Button /Game/mainmenu.mainmenu:WidgetTree.btn_Play or Button /Engine/Transient.World_3:mainmenu_C_30.WidgetTree_147.btn_Play
+[2015.07.23-17.20.08:564][ 76]LogUObjectHash:Warning: Ambiguous search, could be Button /Game/mainmenu.mainmenu:WidgetTree.btn_Play or Button /Engine/Transient.World_3:mainmenu_C_7.WidgetTree_197.btn_Play
+[2015.07.23-17.20.08:564][ 76]LogUObjectHash:Warning: Ambiguous search, could be Button /Game/mainmenu.mainmenu:WidgetTree.btn_Play or Button /Game/mainmenu.mainmenu_C:WidgetTree_196.btn_Play
+[2015.07.23-17.20.08:564][ 76]LogUObjectHash:Warning: Ambiguous search, could be Button /Game/mainmenu.mainmenu:WidgetTree.btn_Play or ObjectProperty /Game/mainmenu.mainmenu_C:btn_Play
+[2015.07.23-17.20.08:564][ 76]LogUObjectHash:Warning: Ambiguous search, could be Button /Game/mainmenu.mainmenu:WidgetTree.btn_Play or Button /Engine/Transient.REINST_SKEL_mainmenu_C_37:WidgetTree_191.btn_Play
+[2015.07.23-17.20.08:565][ 76]LogUObjectHash:Warning: Ambiguous search, could be Button /Game/mainmenu.mainmenu:WidgetTree.btn_Play or ObjectProperty /Engine/Transient.REINST_SKEL_mainmenu_C_37:btn_Play
+[2015.07.23-17.20.08:565][ 76]LogUObjectHash:Warning: Ambiguous search, could be Button /Game/mainmenu.mainmenu:WidgetTree.btn_Play or Button /Engine/Transient.World_3:mainmenu_C_5.WidgetTree_193.btn_Play
+[2015.07.23-17.20.08:565][ 76]LogUObjectHash:Warning: Ambiguous search, could be Button /Game/mainmenu.mainmenu:WidgetTree.btn_Play or Button /Game/mainmenu.SKEL_mainmenu_C:WidgetTree_191.btn_Play
+[2015.07.23-17.20.08:565][ 76]LogUObjectHash:Warning: Ambiguous search, could be Button /Game/mainmenu.mainmenu:WidgetTree.btn_Play or Button /Engine/Transient.REINST_SKEL_mainmenu_C_36:WidgetTree_157.btn_Play
+[2015.07.23-17.20.08:565][ 76]LogUObjectHash:Warning: Ambiguous search, could be Button /Game/mainmenu.mainmenu:WidgetTree.btn_Play or ObjectProperty /Engine/Transient.REINST_mainmenu_C_34:btn_Play
+[2015.07.23-17.20.08:565][ 76]LogUObjectHash:Warning: Ambiguous search, could be Button /Game/mainmenu.mainmenu:WidgetTree.btn_Play or Button /Engine/Transient.REINST_mainmenu_C_34:WidgetTree_154.btn_Play
+[2015.07.23-17.20.08:565][ 76]LogUObjectHash:Warning: Ambiguous search, could be Button /Game/mainmenu.mainmenu:WidgetTree.btn_Play or Button /Engine/Transient.World_3:mainmenu_C_2.WidgetTree_189.btn_Play
+[2015.07.23-17.20.08:565][ 76]LogUObjectHash:Warning: Ambiguous search, could be Button /Game/mainmenu.mainmenu:WidgetTree.btn_Play or Button /Game/mainmenu.mainmenu_C:WidgetTree_188.btn_Play
+[2015.07.23-17.20.08:565][ 76]LogProperty:Warning: Illegal TEXT reference to a private object in external package (ButtonSlot /Game/mainmenu.mainmenu:WidgetTree.btn_Play.ButtonSlot_234) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_449).  Import failed...
+[2015.07.23-17.20.08:565][ 76]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'ButtonSlot'btn_Play.ButtonSlot_234''
+[2015.07.23-17.20.08:566][ 76]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_1.WidgetTree_12.CanvasPanel_0
+[2015.07.23-17.20.08:566][ 76]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_4.WidgetTree_22.CanvasPanel_0
+[2015.07.23-17.20.08:566][ 76]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_6.WidgetTree_30.CanvasPanel_0
+[2015.07.23-17.20.08:566][ 76]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_8.WidgetTree_38.CanvasPanel_0
+[2015.07.23-17.20.08:566][ 76]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/mainmenu.SKEL_mainmenu_C:WidgetTree_195.CanvasPanel_0
+[2015.07.23-17.20.08:566][ 76]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_0.WidgetTree_58.CanvasPanel_0
+[2015.07.23-17.20.08:566][ 76]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_0.WidgetTree_42.CanvasPanel_0
+[2015.07.23-17.20.08:566][ 76]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_mainmenu_C_12:WidgetTree_41.CanvasPanel_0
+[2015.07.23-17.20.08:566][ 76]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_29.WidgetTree_143.CanvasPanel_0
+[2015.07.23-17.20.08:566][ 76]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_7.WidgetTree_197.CanvasPanel_0
+[2015.07.23-17.20.08:566][ 76]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/mainmenu.mainmenu_C:WidgetTree_192.CanvasPanel_0
+[2015.07.23-17.20.08:566][ 76]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_30.WidgetTree_147.CanvasPanel_0
+[2015.07.23-17.20.08:566][ 76]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/mainmenu.mainmenu_C:WidgetTree_196.CanvasPanel_0
+[2015.07.23-17.20.08:567][ 76]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_SKEL_mainmenu_C_36:WidgetTree_157.CanvasPanel_0
+[2015.07.23-17.20.08:567][ 76]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_SKEL_mainmenu_C_37:WidgetTree_191.CanvasPanel_0
+[2015.07.23-17.20.08:567][ 76]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_5.WidgetTree_193.CanvasPanel_0
+[2015.07.23-17.20.08:567][ 76]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_2.WidgetTree_189.CanvasPanel_0
+[2015.07.23-17.20.08:567][ 76]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/mainmenu.SKEL_mainmenu_C:WidgetTree_191.CanvasPanel_0
+[2015.07.23-17.20.08:567][ 76]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_mainmenu_C_34:WidgetTree_154.CanvasPanel_0
+[2015.07.23-17.20.08:567][ 76]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/mainmenu.mainmenu_C:WidgetTree_188.CanvasPanel_0
+[2015.07.23-17.20.08:567][ 76]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1191) from referencer (Button /Engine/UMG/Editor/Transient.btn_Play).  Import failed...
+[2015.07.23-17.20.08:567][ 76]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_1191''
+[2015.07.23-17.20.10:848][203]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.20.37:192][660]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.20.39:755][786]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.20.57:378][641]BlueprintLog: New page: Compile mainmenu
+[2015.07.23-17.20.57:423][641]LogBlueprint:Error: [compiler mainmenu] Error Internal Compiler Error:  Tried to create a property TextBlock_297 in scope mainmenu_C, but ObjectProperty /Game/mainmenu.mainmenu_C:TextBlock_297 already exists there.
+[2015.07.23-17.20.57:638][641]LogBlueprint:Warning: [compiler mainmenu] Warning [0726.87] Compile of mainmenu failed. 1 Fatal Issue(s) 0 Warning(s) [in 259 ms]
+[2015.07.23-17.20.57:638][641]BlueprintEditorCompileResults:Error: Error Internal Compiler Error:  Tried to create a property TextBlock_297 in scope mainmenu_C, but ObjectProperty /Game/mainmenu.mainmenu_C:TextBlock_297 already exists there.
+[2015.07.23-17.20.57:638][641]BlueprintEditorCompileResults:Warning: Warning [0726.87] Compile of mainmenu failed. 1 Fatal Issue(s) 0 Warning(s) [in 259 ms]
+[2015.07.23-17.20.58:016][668]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.20.58:032][668]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mainmenu" FILE="../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Content/mainmenu.uasset" SILENT=true
+[2015.07.23-17.20.58:109][668]LogSavePackage: Save=71.339302ms
+[2015.07.23-17.20.58:109][668]LogSavePackage: Moving '../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Saved/mainmenu56D4BBF943DC6CE69747628F24744051.tmp' to '../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Content/mainmenu.uasset'
+[2015.07.23-17.21.02:544][975]BlueprintLog: New page: Compile mainmenu
+[2015.07.23-17.21.02:584][975]LogBlueprint:Error: [compiler mainmenu] Error Internal Compiler Error:  Tried to create a property TextBlock_297 in scope mainmenu_C, but ObjectProperty /Game/mainmenu.mainmenu_C:TextBlock_297 already exists there.
+[2015.07.23-17.21.02:745][975]LogBlueprint:Warning: [compiler mainmenu] Warning [0731.97] Compile of mainmenu failed. 1 Fatal Issue(s) 0 Warning(s) [in 201 ms]
+[2015.07.23-17.21.02:745][975]BlueprintEditorCompileResults:Error: Error Internal Compiler Error:  Tried to create a property TextBlock_297 in scope mainmenu_C, but ObjectProperty /Game/mainmenu.mainmenu_C:TextBlock_297 already exists there.
+[2015.07.23-17.21.02:746][975]BlueprintEditorCompileResults:Warning: Warning [0731.97] Compile of mainmenu failed. 1 Fatal Issue(s) 0 Warning(s) [in 201 ms]
+[2015.07.23-17.21.04:196][ 82]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.21.04:830][129]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.21.05:940][208]BlueprintLog: New page: Compile mainmenu
+[2015.07.23-17.21.05:984][208]LogBlueprint:Error: [compiler mainmenu] Error Internal Compiler Error:  Tried to create a property TextBlock_297 in scope mainmenu_C, but ObjectProperty /Game/mainmenu.mainmenu_C:TextBlock_297 already exists there.
+[2015.07.23-17.21.06:175][208]LogBlueprint:Warning: [compiler mainmenu] Warning [0735.40] Compile of mainmenu failed. 1 Fatal Issue(s) 0 Warning(s) [in 235 ms]
+[2015.07.23-17.21.06:175][208]BlueprintEditorCompileResults:Error: Error Internal Compiler Error:  Tried to create a property TextBlock_297 in scope mainmenu_C, but ObjectProperty /Game/mainmenu.mainmenu_C:TextBlock_297 already exists there.
+[2015.07.23-17.21.06:175][208]BlueprintEditorCompileResults:Warning: Warning [0735.40] Compile of mainmenu failed. 1 Fatal Issue(s) 0 Warning(s) [in 235 ms]
+[2015.07.23-17.21.37:397][136]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.21.59:547][337]BlueprintLog: New page: Compile mainmenu
+[2015.07.23-17.21.59:587][337]LogBlueprint:Error: [compiler mainmenu] Error Internal Compiler Error:  Tried to create a property txt_Continue in scope mainmenu_C, but ObjectProperty /Game/mainmenu.mainmenu_C:txt_Continue already exists there.
+[2015.07.23-17.21.59:818][337]LogBlueprint:Warning: [compiler mainmenu] Warning [0789.05] Compile of mainmenu failed. 1 Fatal Issue(s) 0 Warning(s) [in 271 ms]
+[2015.07.23-17.21.59:819][337]BlueprintEditorCompileResults:Error: Error Internal Compiler Error:  Tried to create a property txt_Continue in scope mainmenu_C, but ObjectProperty /Game/mainmenu.mainmenu_C:txt_Continue already exists there.
+[2015.07.23-17.21.59:819][337]BlueprintEditorCompileResults:Warning: Warning [0789.05] Compile of mainmenu failed. 1 Fatal Issue(s) 0 Warning(s) [in 271 ms]
+[2015.07.23-17.22.02:261][475]BlueprintLog: New page: Compile mainmenu
+[2015.07.23-17.22.02:305][475]LogBlueprint:Error: [compiler mainmenu] Error Internal Compiler Error:  Tried to create a property txt_Continue in scope mainmenu_C, but ObjectProperty /Game/mainmenu.mainmenu_C:txt_Continue already exists there.
+[2015.07.23-17.22.02:490][475]LogBlueprint:Warning: [compiler mainmenu] Warning [0791.72] Compile of mainmenu failed. 1 Fatal Issue(s) 0 Warning(s) [in 228 ms]
+[2015.07.23-17.22.02:490][475]BlueprintEditorCompileResults:Error: Error Internal Compiler Error:  Tried to create a property txt_Continue in scope mainmenu_C, but ObjectProperty /Game/mainmenu.mainmenu_C:txt_Continue already exists there.
+[2015.07.23-17.22.02:490][475]BlueprintEditorCompileResults:Warning: Warning [0791.72] Compile of mainmenu failed. 1 Fatal Issue(s) 0 Warning(s) [in 228 ms]
+[2015.07.23-17.22.21:575][558]BlueprintLog: New page: Compile mainmenu
+[2015.07.23-17.22.21:611][558]LogBlueprint:Error: [compiler mainmenu] Error Internal Compiler Error:  Tried to create a property txt_Continuetxt in scope mainmenu_C, but ObjectProperty /Game/mainmenu.mainmenu_C:txt_Continuetxt already exists there.
+[2015.07.23-17.22.21:827][558]LogBlueprint:Warning: [compiler mainmenu] Warning [0811.06] Compile of mainmenu failed. 1 Fatal Issue(s) 0 Warning(s) [in 252 ms]
+[2015.07.23-17.22.21:827][558]BlueprintEditorCompileResults:Error: Error Internal Compiler Error:  Tried to create a property txt_Continuetxt in scope mainmenu_C, but ObjectProperty /Game/mainmenu.mainmenu_C:txt_Continuetxt already exists there.
+[2015.07.23-17.22.21:828][558]BlueprintEditorCompileResults:Warning: Warning [0811.06] Compile of mainmenu failed. 1 Fatal Issue(s) 0 Warning(s) [in 252 ms]
+[2015.07.23-17.22.42:255][690]BlueprintLog: New page: Compile mainmenu
+[2015.07.23-17.22.42:462][690]BlueprintEditorCompileResults: Info [0831.69] Compile of mainmenu successful! [in 207 ms]
+[2015.07.23-17.22.43:253][748]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.22.43:280][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mainmenu" FILE="../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Content/mainmenu.uasset" SILENT=true
+[2015.07.23-17.22.43:360][748]LogSavePackage: Save=75.114563ms
+[2015.07.23-17.22.43:360][748]LogSavePackage: Moving '../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Saved/mainmenu67FD1FB6409938351FA47E8FFB90756C.tmp' to '../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Content/mainmenu.uasset'
+[2015.07.23-17.22.43:831][778]LogFMOD: Creating Studio System
+[2015.07.23-17.22.43:840][778]LogFMOD:Warning: e:\jk\workspace\Build__1.6rel__UE4Libs_Win\lowlevel_api\src\fmod_systemi.cpp(2615) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.07.23-17.22.43:842][778]LogFMOD: Triggering Initialized on other modules
+[2015.07.23-17.22.43:842][778]LogFMOD: Loading Banks
+[2015.07.23-17.22.43:952][778]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.23-17.22.43:966][778]LogPlayLevel: [PIE] Compiling mainmenu_Level before PIE...
+[2015.07.23-17.22.44:082][778]LogPlayLevel: PIE:  Blueprint regeneration took 130 ms (1 blueprints)
+[2015.07.23-17.22.44:083][778]PIE: New page: PIE session: mainmenu_Level (Jul 23, 2015, 9:22:44 AM)
+[2015.07.23-17.22.44:083][778]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_mainmenu_Level
+[2015.07.23-17.22.44:086][778]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002859s)
+[2015.07.23-17.22.44:088][778]LogAIModule: Creating AISystem for world mainmenu_Level
+[2015.07.23-17.22.44:088][778]LogPlayLevel: PIE: World Init took: (0.002206s)
+[2015.07.23-17.22.44:089][778]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/mainmenu_Level.mainmenu_Level to /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level (0.005350s)
+[2015.07.23-17.22.44:134][778]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.23-17.22.44:139][778]LogInit: FAudioDevice initialized.
+[2015.07.23-17.22.44:176][778]LogWorld: Game class is 'GameMode'
+[2015.07.23-17.22.44:179][778]LogWorld: Bringing World /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level up for play (max tick rate 0) at 2015.07.23-13.22.44
+[2015.07.23-17.22.44:179][778]LogActor:Warning: GameSession /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.23-17.22.44:179][778]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.23-17.22.44:179][778]LogWorld: Bringing up level for play took: 0.001068
+[2015.07.23-17.22.44:182][778]LogFMOD: LoadBank Master_Bank
+[2015.07.23-17.22.44:182][778]PIE: Info Play in editor start time for /Game/UEDPIE_0_mainmenu_Level 1.021
+[2015.07.23-17.22.44:222][779]LogFMOD:Warning: e:\jk\workspace\Build__1.6rel__UE4Libs_Win\studio_api\src\fmod_bank_loader.cpp(66) - Failed to open file '../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Content/FMOD/Desktop/Master_Bank.bank'
+
+[2015.07.23-17.22.49:202][ 40]LogFMOD:Warning: e:\jk\workspace\Build__1.6rel__UE4Libs_Win\lowlevel_api\src\fmod_systemi.cpp(770) - mDSPCachePool not cleaned up properly!. 32 bytes remaining.
+
+[2015.07.23-17.22.49:203][ 40]LogFMOD:Warning: Failed to stop event instance
+[2015.07.23-17.22.49:303][ 41]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B39A42E160
+[2015.07.23-17.23.03:078][819]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.23.03:931][863]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.23.23:084][970]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.23.38:746][745]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.23.40:923][857]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.23.49:799][304]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.24.01:291][877]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.24.12:934][445]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.24.20:362][816]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.24.39:357][765]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.24.40:100][801]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.24.40:601][828]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.24.41:015][849]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.25.21:675][909]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.25.24:829][ 59]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.25.28:062][222]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.25.31:866][405]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.25.38:526][726]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.25.42:771][929]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.25.46:103][ 94]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.25.50:912][333]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.25.56:600][627]BlueprintLog: New page: Compile mainmenu
+[2015.07.23-17.25.56:814][627]BlueprintEditorCompileResults: Info [1026.04] Compile of mainmenu successful! [in 214 ms]
+[2015.07.23-17.25.57:280][653]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.25.57:292][653]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mainmenu" FILE="../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Content/mainmenu.uasset" SILENT=true
+[2015.07.23-17.25.57:373][653]LogSavePackage: Save=76.225037ms
+[2015.07.23-17.25.57:373][653]LogSavePackage: Moving '../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Saved/mainmenu15E523A74D624C25387A0681540A3282.tmp' to '../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Content/mainmenu.uasset'
+[2015.07.23-17.25.57:961][683]LogFMOD: Creating Studio System
+[2015.07.23-17.25.57:973][683]LogFMOD:Warning: e:\jk\workspace\Build__1.6rel__UE4Libs_Win\lowlevel_api\src\fmod_systemi.cpp(2615) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.07.23-17.25.57:975][683]LogFMOD: Triggering Initialized on other modules
+[2015.07.23-17.25.57:975][683]LogFMOD: Loading Banks
+[2015.07.23-17.25.58:075][683]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.23-17.25.58:083][683]LogPlayLevel: [PIE] Compiling mainmenu_Level before PIE...
+[2015.07.23-17.25.58:198][683]LogPlayLevel: PIE:  Blueprint regeneration took 123 ms (1 blueprints)
+[2015.07.23-17.25.58:198][683]PIE: New page: PIE session: mainmenu_Level (Jul 23, 2015, 9:25:58 AM)
+[2015.07.23-17.25.58:199][683]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_mainmenu_Level
+[2015.07.23-17.25.58:202][683]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002955s)
+[2015.07.23-17.25.58:202][683]LogAIModule: Creating AISystem for world mainmenu_Level
+[2015.07.23-17.25.58:203][683]LogPlayLevel: PIE: World Init took: (0.001744s)
+[2015.07.23-17.25.58:203][683]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/mainmenu_Level.mainmenu_Level to /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level (0.004934s)
+[2015.07.23-17.25.58:246][683]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.23-17.25.58:251][683]LogInit: FAudioDevice initialized.
+[2015.07.23-17.25.58:290][683]LogWorld: Game class is 'GameMode'
+[2015.07.23-17.25.58:293][683]LogWorld: Bringing World /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level up for play (max tick rate 0) at 2015.07.23-13.25.58
+[2015.07.23-17.25.58:293][683]LogActor:Warning: GameSession /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.23-17.25.58:293][683]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.23-17.25.58:293][683]LogWorld: Bringing up level for play took: 0.000989
+[2015.07.23-17.25.58:296][683]LogFMOD: LoadBank Master_Bank
+[2015.07.23-17.25.58:296][683]PIE: Info Play in editor start time for /Game/UEDPIE_0_mainmenu_Level 1.135
+[2015.07.23-17.25.58:335][684]LogFMOD:Warning: e:\jk\workspace\Build__1.6rel__UE4Libs_Win\studio_api\src\fmod_bank_loader.cpp(66) - Failed to open file '../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Content/FMOD/Desktop/Master_Bank.bank'
+
+[2015.07.23-17.26.04:766][841]LogFMOD:Warning: e:\jk\workspace\Build__1.6rel__UE4Libs_Win\lowlevel_api\src\fmod_systemi.cpp(770) - mDSPCachePool not cleaned up properly!. 32 bytes remaining.
+
+[2015.07.23-17.26.04:767][841]LogFMOD:Warning: Failed to stop event instance
+[2015.07.23-17.26.04:867][842]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B3945C3740
+[2015.07.23-17.26.49:960][403]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.27.03:391][528]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.29.06:228][530]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.29.12:101][855]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.29.14:297][998]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.29.15:192][ 46]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.29.16:121][ 91]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.29.17:226][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0
+[2015.07.23-17.29.17:226][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_20.WidgetTree_323.CanvasPanel_0
+[2015.07.23-17.29.17:226][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_SKEL_mainmenu_C_88:WidgetTree_377.CanvasPanel_0
+[2015.07.23-17.29.17:226][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_mainmenu_C_86:WidgetTree_374.CanvasPanel_0
+[2015.07.23-17.29.17:226][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_mainmenu_C_65:WidgetTree_292.CanvasPanel_0
+[2015.07.23-17.29.17:226][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_5.WidgetTree_248.CanvasPanel_0
+[2015.07.23-17.29.17:226][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_16.WidgetTree_290.CanvasPanel_0
+[2015.07.23-17.29.17:226][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_11.WidgetTree_209.CanvasPanel_0
+[2015.07.23-17.29.17:226][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_1.WidgetTree_12.CanvasPanel_0
+[2015.07.23-17.29.17:226][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_14.WidgetTree_264.CanvasPanel_0
+[2015.07.23-17.29.17:226][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Game/mainmenu.SKEL_mainmenu_C:WidgetTree_377.CanvasPanel_0
+[2015.07.23-17.29.17:226][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_mainmenu_C_43:WidgetTree_216.CanvasPanel_0
+[2015.07.23-17.29.17:226][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_4.WidgetTree_22.CanvasPanel_0
+[2015.07.23-17.29.17:226][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_10.WidgetTree_205.CanvasPanel_0
+[2015.07.23-17.29.17:226][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_3.WidgetTree_318.CanvasPanel_0
+[2015.07.23-17.29.17:226][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_6.WidgetTree_30.CanvasPanel_0
+[2015.07.23-17.29.17:226][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_9.WidgetTree_201.CanvasPanel_0
+[2015.07.23-17.29.17:226][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Game/mainmenu.mainmenu_C:WidgetTree_398.CanvasPanel_0
+[2015.07.23-17.29.17:226][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_3.WidgetTree_293.CanvasPanel_0
+[2015.07.23-17.29.17:226][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_8.WidgetTree_38.CanvasPanel_0
+[2015.07.23-17.29.17:226][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_18.WidgetTree_306.CanvasPanel_0
+[2015.07.23-17.29.17:226][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_0.WidgetTree_58.CanvasPanel_0
+[2015.07.23-17.29.17:226][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_0.WidgetTree_42.CanvasPanel_0
+[2015.07.23-17.29.17:226][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_mainmenu_C_12:WidgetTree_41.CanvasPanel_0
+[2015.07.23-17.29.17:226][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Game/mainmenu.mainmenu_C:WidgetTree_394.CanvasPanel_0
+[2015.07.23-17.29.17:226][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_mainmenu_C_58:WidgetTree_267.CanvasPanel_0
+[2015.07.23-17.29.17:226][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Game/mainmenu.SKEL_mainmenu_C:WidgetTree_397.CanvasPanel_0
+[2015.07.23-17.29.17:227][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_21.WidgetTree_395.CanvasPanel_0
+[2015.07.23-17.29.17:227][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_23.WidgetTree_399.CanvasPanel_0
+[2015.07.23-17.29.17:227][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_24.WidgetTree_339.CanvasPanel_0
+[2015.07.23-17.29.17:227][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_25.WidgetTree_343.CanvasPanel_0
+[2015.07.23-17.29.17:227][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_29.WidgetTree_143.CanvasPanel_0
+[2015.07.23-17.29.17:227][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_5.WidgetTree_310.CanvasPanel_0
+[2015.07.23-17.29.17:227][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_30.WidgetTree_147.CanvasPanel_0
+[2015.07.23-17.29.17:227][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_13.WidgetTree_260.CanvasPanel_0
+[2015.07.23-17.29.17:227][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_2.WidgetTree_245.CanvasPanel_0
+[2015.07.23-17.29.17:227][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_mainmenu_C_70:WidgetTree_309.CanvasPanel_0
+[2015.07.23-17.29.17:227][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_7.WidgetTree_252.CanvasPanel_0
+[2015.07.23-17.29.17:227][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_mainmenu_C_34:WidgetTree_154.CanvasPanel_0
+[2015.07.23-17.29.17:227][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_12.WidgetTree_256.CanvasPanel_0
+[2015.07.23-17.29.17:227][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/mainmenu.SKEL_mainmenu_C:WidgetTree_377.CanvasPanel_0.CanvasPanelSlot_3966 or CanvasPanelSlot /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3966
+[2015.07.23-17.29.17:227][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/mainmenu.SKEL_mainmenu_C:WidgetTree_377.CanvasPanel_0.CanvasPanelSlot_3966 or CanvasPanelSlot /Game/mainmenu.mainmenu_C:WidgetTree_398.CanvasPanel_0.CanvasPanelSlot_3966
+[2015.07.23-17.29.17:227][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/mainmenu.SKEL_mainmenu_C:WidgetTree_377.CanvasPanel_0.CanvasPanelSlot_3966 or CanvasPanelSlot /Engine/Transient.REINST_SKEL_mainmenu_C_88:WidgetTree_377.CanvasPanel_0.CanvasPanelSlot_3966
+[2015.07.23-17.29.17:227][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/mainmenu.SKEL_mainmenu_C:WidgetTree_377.CanvasPanel_0.CanvasPanelSlot_3966 or CanvasPanelSlot /Engine/Transient.World_3:mainmenu_C_24.WidgetTree_339.CanvasPanel_0.CanvasPanelSlot_3966
+[2015.07.23-17.29.17:227][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/mainmenu.SKEL_mainmenu_C:WidgetTree_377.CanvasPanel_0.CanvasPanelSlot_3966 or CanvasPanelSlot /Engine/Transient.World_3:mainmenu_C_25.WidgetTree_343.CanvasPanel_0.CanvasPanelSlot_3966
+[2015.07.23-17.29.17:227][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/mainmenu.SKEL_mainmenu_C:WidgetTree_377.CanvasPanel_0.CanvasPanelSlot_3966 or CanvasPanelSlot /Engine/Transient.World_3:mainmenu_C_23.WidgetTree_399.CanvasPanel_0.CanvasPanelSlot_3966
+[2015.07.23-17.29.17:227][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/mainmenu.SKEL_mainmenu_C:WidgetTree_377.CanvasPanel_0.CanvasPanelSlot_3966 or CanvasPanelSlot /Engine/Transient.World_3:mainmenu_C_21.WidgetTree_395.CanvasPanel_0.CanvasPanelSlot_3966
+[2015.07.23-17.29.17:227][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/mainmenu.SKEL_mainmenu_C:WidgetTree_377.CanvasPanel_0.CanvasPanelSlot_3966 or CanvasPanelSlot /Game/mainmenu.SKEL_mainmenu_C:WidgetTree_397.CanvasPanel_0.CanvasPanelSlot_3966
+[2015.07.23-17.29.17:227][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/mainmenu.SKEL_mainmenu_C:WidgetTree_377.CanvasPanel_0.CanvasPanelSlot_3966 or CanvasPanelSlot /Engine/Transient.REINST_mainmenu_C_86:WidgetTree_374.CanvasPanel_0.CanvasPanelSlot_3966
+[2015.07.23-17.29.17:227][153]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/mainmenu.SKEL_mainmenu_C:WidgetTree_377.CanvasPanel_0.CanvasPanelSlot_3966 or CanvasPanelSlot /Game/mainmenu.mainmenu_C:WidgetTree_394.CanvasPanel_0.CanvasPanelSlot_3966
+[2015.07.23-17.29.17:227][153]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/mainmenu.SKEL_mainmenu_C:WidgetTree_377.CanvasPanel_0.CanvasPanelSlot_3966) from referencer (TextBlock /Engine/UMG/Editor/Transient.txt_Eyes).  Import failed...
+[2015.07.23-17.29.17:227][153]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_3966''
+[2015.07.23-17.29.23:809][501]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.29.26:706][640]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.29.29:948][797]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.29.35:218][ 50]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.29.43:756][490]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.29.58:989][295]BlueprintLog: New page: Compile mainmenu
+[2015.07.23-17.29.59:168][295]BlueprintEditorCompileResults: Info [1268.40] Compile of mainmenu successful! [in 178 ms]
+[2015.07.23-17.30.00:092][344]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.30.00:119][344]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mainmenu" FILE="../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Content/mainmenu.uasset" SILENT=true
+[2015.07.23-17.30.00:205][344]LogSavePackage: Save=78.994324ms
+[2015.07.23-17.30.00:205][344]LogSavePackage: Moving '../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Saved/mainmenu973354F94AD8C265B16093BD96E9E925.tmp' to '../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Content/mainmenu.uasset'
+[2015.07.23-17.30.00:702][367]LogFMOD: Creating Studio System
+[2015.07.23-17.30.00:711][367]LogFMOD:Warning: e:\jk\workspace\Build__1.6rel__UE4Libs_Win\lowlevel_api\src\fmod_systemi.cpp(2615) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.07.23-17.30.00:713][367]LogFMOD: Triggering Initialized on other modules
+[2015.07.23-17.30.00:713][367]LogFMOD: Loading Banks
+[2015.07.23-17.30.00:823][367]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.23-17.30.00:830][367]LogPlayLevel: [PIE] Compiling mainmenu_Level before PIE...
+[2015.07.23-17.30.00:942][367]LogPlayLevel: PIE:  Blueprint regeneration took 119 ms (1 blueprints)
+[2015.07.23-17.30.00:942][367]PIE: New page: PIE session: mainmenu_Level (Jul 23, 2015, 9:30:00 AM)
+[2015.07.23-17.30.00:942][367]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_mainmenu_Level
+[2015.07.23-17.30.00:945][367]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002636s)
+[2015.07.23-17.30.00:946][367]LogAIModule: Creating AISystem for world mainmenu_Level
+[2015.07.23-17.30.00:947][367]LogPlayLevel: PIE: World Init took: (0.001617s)
+[2015.07.23-17.30.00:947][367]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/mainmenu_Level.mainmenu_Level to /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level (0.004417s)
+[2015.07.23-17.30.00:995][367]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.23-17.30.01:000][367]LogInit: FAudioDevice initialized.
+[2015.07.23-17.30.01:036][367]LogWorld: Game class is 'GameMode'
+[2015.07.23-17.30.01:038][367]LogWorld: Bringing World /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level up for play (max tick rate 0) at 2015.07.23-13.30.01
+[2015.07.23-17.30.01:038][367]LogActor:Warning: GameSession /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.23-17.30.01:039][367]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.23-17.30.01:039][367]LogWorld: Bringing up level for play took: 0.001166
+[2015.07.23-17.30.01:042][367]LogFMOD: LoadBank Master_Bank
+[2015.07.23-17.30.01:042][367]PIE: Info Play in editor start time for /Game/UEDPIE_0_mainmenu_Level -0.119
+[2015.07.23-17.30.01:097][369]LogFMOD:Warning: e:\jk\workspace\Build__1.6rel__UE4Libs_Win\studio_api\src\fmod_bank_loader.cpp(66) - Failed to open file '../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Content/FMOD/Desktop/Master_Bank.bank'
+
+[2015.07.23-17.30.10:974][606]LogFMOD:Warning: e:\jk\workspace\Build__1.6rel__UE4Libs_Win\lowlevel_api\src\fmod_systemi.cpp(770) - mDSPCachePool not cleaned up properly!. 32 bytes remaining.
+
+[2015.07.23-17.30.10:975][606]LogFMOD:Warning: Failed to stop event instance
+[2015.07.23-17.30.11:077][607]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B39BDC3880
+[2015.07.23-17.30.13:831][757]LogFMOD: Creating Studio System
+[2015.07.23-17.30.13:839][757]LogFMOD:Warning: e:\jk\workspace\Build__1.6rel__UE4Libs_Win\lowlevel_api\src\fmod_systemi.cpp(2615) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.07.23-17.30.13:840][757]LogFMOD: Triggering Initialized on other modules
+[2015.07.23-17.30.13:840][757]LogFMOD: Loading Banks
+[2015.07.23-17.30.13:941][757]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.23-17.30.13:952][757]LogPlayLevel: [PIE] Compiling mainmenu_Level before PIE...
+[2015.07.23-17.30.14:067][757]LogPlayLevel: PIE:  Blueprint regeneration took 127 ms (1 blueprints)
+[2015.07.23-17.30.14:068][757]PIE: New page: PIE session: mainmenu_Level (Jul 23, 2015, 9:30:14 AM)
+[2015.07.23-17.30.14:069][757]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_mainmenu_Level
+[2015.07.23-17.30.14:072][757]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003225s)
+[2015.07.23-17.30.14:073][757]LogAIModule: Creating AISystem for world mainmenu_Level
+[2015.07.23-17.30.14:073][757]LogPlayLevel: PIE: World Init took: (0.001138s)
+[2015.07.23-17.30.14:073][757]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/mainmenu_Level.mainmenu_Level to /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level (0.004551s)
+[2015.07.23-17.30.14:119][757]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.23-17.30.14:124][757]LogInit: FAudioDevice initialized.
+[2015.07.23-17.30.14:158][757]LogWorld: Game class is 'GameMode'
+[2015.07.23-17.30.14:161][757]LogWorld: Bringing World /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level up for play (max tick rate 0) at 2015.07.23-13.30.14
+[2015.07.23-17.30.14:162][757]LogActor:Warning: GameSession /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.23-17.30.14:162][757]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.23-17.30.14:163][757]LogWorld: Bringing up level for play took: 0.001968
+[2015.07.23-17.30.14:166][757]LogFMOD: LoadBank Master_Bank
+[2015.07.23-17.30.14:166][757]PIE: Info Play in editor start time for /Game/UEDPIE_0_mainmenu_Level 1.004
+[2015.07.23-17.30.14:221][759]LogFMOD:Warning: e:\jk\workspace\Build__1.6rel__UE4Libs_Win\studio_api\src\fmod_bank_loader.cpp(66) - Failed to open file '../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Content/FMOD/Desktop/Master_Bank.bank'
+
+[2015.07.23-17.30.22:301][195]LogFMOD:Warning: e:\jk\workspace\Build__1.6rel__UE4Libs_Win\lowlevel_api\src\fmod_systemi.cpp(770) - mDSPCachePool not cleaned up properly!. 32 bytes remaining.
+
+[2015.07.23-17.30.22:303][195]LogFMOD:Warning: Failed to stop event instance
+[2015.07.23-17.30.22:398][196]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B39BC67CE0
+[2015.07.23-17.30.59:798][673]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/mainmenu.mainmenu:EventGraph.K2Node_VariableGet_559 or K2Node_VariableGet /Game/mainmenu.mainmenu:ExecuteUbergraph_mainmenu.K2Node_VariableGet_559
+[2015.07.23-17.30.59:798][673]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_559.EdGraphPin_630''
+[2015.07.23-17.30.59:798][673]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_26.EdGraphPin_595''
+[2015.07.23-17.30.59:799][673]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_678.EdGraphPin_636''
+[2015.07.23-17.30.59:799][673]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_680.EdGraphPin_651''
+[2015.07.23-17.30.59:799][673]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_678.EdGraphPin_637''
+[2015.07.23-17.30.59:799][673]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_678.EdGraphPin_639''
+[2015.07.23-17.30.59:800][673]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_680.EdGraphPin_652''
+[2015.07.23-17.30.59:800][673]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_680.EdGraphPin_654''
+[2015.07.23-17.30.59:801][673]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/mainmenu.mainmenu:EventGraph.K2Node_VariableGet_563 or K2Node_VariableGet /Game/mainmenu.mainmenu:ExecuteUbergraph_mainmenu.K2Node_VariableGet_563
+[2015.07.23-17.30.59:801][673]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_563.EdGraphPin_672''
+[2015.07.23-17.30.59:801][673]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/mainmenu.mainmenu:EventGraph.K2Node_VariableGet_561 or K2Node_VariableGet /Game/mainmenu.mainmenu:ExecuteUbergraph_mainmenu.K2Node_VariableGet_561
+[2015.07.23-17.30.59:801][673]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_561.EdGraphPin_666''
+[2015.07.23-17.31.10:695][551]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.31.40:852][836]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.31.51:224][700]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.31.51:895][752]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.31.57:985][224]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.32.00:818][439]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.32.05:938][837]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.32.06:296][863]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.32.08:227][  9]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.32.12:742][352]BlueprintLog: New page: Compile mainmenu
+[2015.07.23-17.32.12:906][352]BlueprintEditorCompileResults: Info [1402.13] Compile of mainmenu successful! [in 163 ms]
+[2015.07.23-17.32.13:374][385]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.32.13:398][385]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mainmenu" FILE="../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Content/mainmenu.uasset" SILENT=true
+[2015.07.23-17.32.13:490][385]LogSavePackage: Save=86.577881ms
+[2015.07.23-17.32.13:490][385]LogSavePackage: Moving '../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Saved/mainmenu6490E47B497B15CA6CC4638F0D4636B6.tmp' to '../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Content/mainmenu.uasset'
+[2015.07.23-17.32.14:021][421]LogFMOD: Creating Studio System
+[2015.07.23-17.32.14:032][421]LogFMOD:Warning: e:\jk\workspace\Build__1.6rel__UE4Libs_Win\lowlevel_api\src\fmod_systemi.cpp(2615) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.07.23-17.32.14:034][421]LogFMOD: Triggering Initialized on other modules
+[2015.07.23-17.32.14:034][421]LogFMOD: Loading Banks
+[2015.07.23-17.32.14:144][421]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.23-17.32.14:153][421]LogPlayLevel: [PIE] Compiling mainmenu_Level before PIE...
+[2015.07.23-17.32.14:263][421]LogPlayLevel: PIE:  Blueprint regeneration took 119 ms (1 blueprints)
+[2015.07.23-17.32.14:263][421]PIE: New page: PIE session: mainmenu_Level (Jul 23, 2015, 9:32:14 AM)
+[2015.07.23-17.32.14:263][421]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_mainmenu_Level
+[2015.07.23-17.32.14:266][421]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002652s)
+[2015.07.23-17.32.14:267][421]LogAIModule: Creating AISystem for world mainmenu_Level
+[2015.07.23-17.32.14:267][421]LogPlayLevel: PIE: World Init took: (0.001114s)
+[2015.07.23-17.32.14:267][421]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/mainmenu_Level.mainmenu_Level to /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level (0.003943s)
+[2015.07.23-17.32.14:309][421]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.23-17.32.14:316][421]LogInit: FAudioDevice initialized.
+[2015.07.23-17.32.14:351][421]LogWorld: Game class is 'GameMode'
+[2015.07.23-17.32.14:353][421]LogWorld: Bringing World /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level up for play (max tick rate 0) at 2015.07.23-13.32.14
+[2015.07.23-17.32.14:353][421]LogActor:Warning: GameSession /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.23-17.32.14:354][421]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.23-17.32.14:354][421]LogWorld: Bringing up level for play took: 0.001041
+[2015.07.23-17.32.14:356][421]LogFMOD: LoadBank Master_Bank
+[2015.07.23-17.32.14:357][421]PIE: Info Play in editor start time for /Game/UEDPIE_0_mainmenu_Level 1.196
+[2015.07.23-17.32.14:405][423]LogFMOD:Warning: e:\jk\workspace\Build__1.6rel__UE4Libs_Win\studio_api\src\fmod_bank_loader.cpp(66) - Failed to open file '../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Content/FMOD/Desktop/Master_Bank.bank'
+
+[2015.07.23-17.32.20:199][839]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B39BC65DA0
+[2015.07.23-17.32.24:762][179]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.32.30:526][630]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.32.33:498][860]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.32.37:550][183]BlueprintLog: New page: Compile mainmenu
+[2015.07.23-17.32.37:706][183]BlueprintEditorCompileResults: Info [1426.93] Compile of mainmenu successful! [in 155 ms]
+[2015.07.23-17.32.38:110][216]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.32.38:138][216]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mainmenu" FILE="../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Content/mainmenu.uasset" SILENT=true
+[2015.07.23-17.32.38:232][216]LogSavePackage: Save=88.115669ms
+[2015.07.23-17.32.38:232][216]LogSavePackage: Moving '../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Saved/mainmenuBE02B7934446CAC02D992CBA915A2554.tmp' to '../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Content/mainmenu.uasset'
+[2015.07.23-17.32.38:700][251]LogFMOD: Creating Studio System
+[2015.07.23-17.32.38:708][251]LogFMOD:Warning: e:\jk\workspace\Build__1.6rel__UE4Libs_Win\lowlevel_api\src\fmod_systemi.cpp(2615) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.07.23-17.32.38:711][251]LogFMOD: Triggering Initialized on other modules
+[2015.07.23-17.32.38:711][251]LogFMOD: Loading Banks
+[2015.07.23-17.32.38:820][251]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.23-17.32.38:829][251]LogPlayLevel: [PIE] Compiling mainmenu_Level before PIE...
+[2015.07.23-17.32.38:940][251]LogPlayLevel: PIE:  Blueprint regeneration took 120 ms (1 blueprints)
+[2015.07.23-17.32.38:940][251]PIE: New page: PIE session: mainmenu_Level (Jul 23, 2015, 9:32:38 AM)
+[2015.07.23-17.32.38:941][251]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_mainmenu_Level
+[2015.07.23-17.32.38:944][251]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003101s)
+[2015.07.23-17.32.38:945][251]LogAIModule: Creating AISystem for world mainmenu_Level
+[2015.07.23-17.32.38:945][251]LogPlayLevel: PIE: World Init took: (0.001062s)
+[2015.07.23-17.32.38:945][251]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/mainmenu_Level.mainmenu_Level to /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level (0.004335s)
+[2015.07.23-17.32.38:988][251]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.23-17.32.38:993][251]LogInit: FAudioDevice initialized.
+[2015.07.23-17.32.39:033][251]LogWorld: Game class is 'GameMode'
+[2015.07.23-17.32.39:035][251]LogWorld: Bringing World /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level up for play (max tick rate 0) at 2015.07.23-13.32.39
+[2015.07.23-17.32.39:035][251]LogActor:Warning: GameSession /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.23-17.32.39:035][251]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.23-17.32.39:035][251]LogWorld: Bringing up level for play took: 0.000987
+[2015.07.23-17.32.39:038][251]LogFMOD: LoadBank Master_Bank
+[2015.07.23-17.32.39:038][251]PIE: Info Play in editor start time for /Game/UEDPIE_0_mainmenu_Level -0.123
+[2015.07.23-17.32.39:085][253]LogFMOD:Warning: e:\jk\workspace\Build__1.6rel__UE4Libs_Win\studio_api\src\fmod_bank_loader.cpp(66) - Failed to open file '../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Content/FMOD/Desktop/Master_Bank.bank'
+
+[2015.07.23-17.33.00:991][855]LogFMOD:Warning: e:\jk\workspace\Build__1.6rel__UE4Libs_Win\lowlevel_api\src\fmod_systemi.cpp(770) - mDSPCachePool not cleaned up properly!. 32 bytes remaining.
+
+[2015.07.23-17.33.00:993][855]LogFMOD:Warning: Failed to stop event instance
+[2015.07.23-17.33.01:087][856]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B39A99C180
+[2015.07.23-17.33.02:194][911]LogEditorViewport: Clicking Background
+[2015.07.23-17.33.02:962][980]LogFMOD: Creating Studio System
+[2015.07.23-17.33.02:971][980]LogFMOD:Warning: e:\jk\workspace\Build__1.6rel__UE4Libs_Win\lowlevel_api\src\fmod_systemi.cpp(2615) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.07.23-17.33.02:972][980]LogFMOD: Triggering Initialized on other modules
+[2015.07.23-17.33.02:972][980]LogFMOD: Loading Banks
+[2015.07.23-17.33.03:074][980]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.23-17.33.03:084][980]LogPlayLevel: [PIE] Compiling mainmenu_Level before PIE...
+[2015.07.23-17.33.03:195][980]LogPlayLevel: PIE:  Blueprint regeneration took 121 ms (1 blueprints)
+[2015.07.23-17.33.03:195][980]PIE: New page: PIE session: mainmenu_Level (Jul 23, 2015, 9:33:03 AM)
+[2015.07.23-17.33.03:196][980]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_mainmenu_Level
+[2015.07.23-17.33.03:200][980]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003694s)
+[2015.07.23-17.33.03:200][980]LogAIModule: Creating AISystem for world mainmenu_Level
+[2015.07.23-17.33.03:201][980]LogPlayLevel: PIE: World Init took: (0.001138s)
+[2015.07.23-17.33.03:201][980]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/mainmenu_Level.mainmenu_Level to /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level (0.005050s)
+[2015.07.23-17.33.03:245][980]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.23-17.33.03:251][980]LogInit: FAudioDevice initialized.
+[2015.07.23-17.33.03:288][980]LogWorld: Game class is 'GameMode'
+[2015.07.23-17.33.03:291][980]LogWorld: Bringing World /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level up for play (max tick rate 0) at 2015.07.23-13.33.03
+[2015.07.23-17.33.03:291][980]LogActor:Warning: GameSession /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.23-17.33.03:291][980]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.23-17.33.03:291][980]LogWorld: Bringing up level for play took: 0.001104
+[2015.07.23-17.33.03:294][980]LogFMOD: LoadBank Master_Bank
+[2015.07.23-17.33.03:295][980]PIE: Info Play in editor start time for /Game/UEDPIE_0_mainmenu_Level 0.133
+[2015.07.23-17.33.03:344][983]LogFMOD:Warning: e:\jk\workspace\Build__1.6rel__UE4Libs_Win\studio_api\src\fmod_bank_loader.cpp(66) - Failed to open file '../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Content/FMOD/Desktop/Master_Bank.bank'
+
+[2015.07.23-17.33.08:244][362]LogFMOD:Warning: e:\jk\workspace\Build__1.6rel__UE4Libs_Win\lowlevel_api\src\fmod_systemi.cpp(770) - mDSPCachePool not cleaned up properly!. 32 bytes remaining.
+
+[2015.07.23-17.33.08:246][362]LogFMOD:Warning: Failed to stop event instance
+[2015.07.23-17.33.08:339][363]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B3A5D659E0
+[2015.07.23-17.34.16:305][214]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.34.18:862][415]BlueprintLog: New page: Compile mainmenu
+[2015.07.23-17.34.19:016][415]BlueprintEditorCompileResults: Info [1528.24] Compile of mainmenu successful! [in 154 ms]
+[2015.07.23-17.34.20:062][494]LogFMOD: Creating Studio System
+[2015.07.23-17.34.20:070][494]LogFMOD:Warning: e:\jk\workspace\Build__1.6rel__UE4Libs_Win\lowlevel_api\src\fmod_systemi.cpp(2615) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.07.23-17.34.20:072][494]LogFMOD: Triggering Initialized on other modules
+[2015.07.23-17.34.20:072][494]LogFMOD: Loading Banks
+[2015.07.23-17.34.20:172][494]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.23-17.34.20:179][494]LogPlayLevel: [PIE] Compiling mainmenu_Level before PIE...
+[2015.07.23-17.34.20:294][494]LogPlayLevel: PIE:  Blueprint regeneration took 122 ms (1 blueprints)
+[2015.07.23-17.34.20:294][494]PIE: New page: PIE session: mainmenu_Level (Jul 23, 2015, 9:34:20 AM)
+[2015.07.23-17.34.20:294][494]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_mainmenu_Level
+[2015.07.23-17.34.20:297][494]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002679s)
+[2015.07.23-17.34.20:298][494]LogAIModule: Creating AISystem for world mainmenu_Level
+[2015.07.23-17.34.20:298][494]LogPlayLevel: PIE: World Init took: (0.001165s)
+[2015.07.23-17.34.20:298][494]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/mainmenu_Level.mainmenu_Level to /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level (0.004003s)
+[2015.07.23-17.34.20:342][494]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.23-17.34.20:347][494]LogInit: FAudioDevice initialized.
+[2015.07.23-17.34.20:381][494]LogWorld: Game class is 'GameMode'
+[2015.07.23-17.34.20:384][494]LogWorld: Bringing World /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level up for play (max tick rate 0) at 2015.07.23-13.34.20
+[2015.07.23-17.34.20:384][494]LogActor:Warning: GameSession /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.23-17.34.20:384][494]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.23-17.34.20:384][494]LogWorld: Bringing up level for play took: 0.001189
+[2015.07.23-17.34.20:387][494]LogFMOD: LoadBank Master_Bank
+[2015.07.23-17.34.20:387][494]PIE: Info Play in editor start time for /Game/UEDPIE_0_mainmenu_Level 1.226
+[2015.07.23-17.34.20:428][496]LogFMOD:Warning: e:\jk\workspace\Build__1.6rel__UE4Libs_Win\studio_api\src\fmod_bank_loader.cpp(66) - Failed to open file '../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Content/FMOD/Desktop/Master_Bank.bank'
+
+[2015.07.23-17.34.26:223][948]LogFMOD:Warning: e:\jk\workspace\Build__1.6rel__UE4Libs_Win\lowlevel_api\src\fmod_systemi.cpp(770) - mDSPCachePool not cleaned up properly!. 32 bytes remaining.
+
+[2015.07.23-17.34.26:225][948]LogFMOD:Warning: Failed to stop event instance
+[2015.07.23-17.34.26:313][949]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B3A60C9760
+[2015.07.23-17.35.07:819][537]BlueprintLog: New page: Compile mainmenu
+[2015.07.23-17.35.07:960][537]BlueprintEditorCompileResults: Info [1577.19] Compile of mainmenu successful! [in 140 ms]
+[2015.07.23-17.35.08:492][576]LogFMOD: Creating Studio System
+[2015.07.23-17.35.08:503][576]LogFMOD:Warning: e:\jk\workspace\Build__1.6rel__UE4Libs_Win\lowlevel_api\src\fmod_systemi.cpp(2615) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.07.23-17.35.08:505][576]LogFMOD: Triggering Initialized on other modules
+[2015.07.23-17.35.08:505][576]LogFMOD: Loading Banks
+[2015.07.23-17.35.08:605][576]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.23-17.35.08:616][576]LogPlayLevel: [PIE] Compiling mainmenu_Level before PIE...
+[2015.07.23-17.35.08:744][576]LogPlayLevel: PIE:  Blueprint regeneration took 139 ms (1 blueprints)
+[2015.07.23-17.35.08:744][576]PIE: New page: PIE session: mainmenu_Level (Jul 23, 2015, 9:35:08 AM)
+[2015.07.23-17.35.08:745][576]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_mainmenu_Level
+[2015.07.23-17.35.08:749][576]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003996s)
+[2015.07.23-17.35.08:750][576]LogAIModule: Creating AISystem for world mainmenu_Level
+[2015.07.23-17.35.08:751][576]LogPlayLevel: PIE: World Init took: (0.001321s)
+[2015.07.23-17.35.08:751][576]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/mainmenu_Level.mainmenu_Level to /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level (0.005525s)
+[2015.07.23-17.35.08:809][576]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.23-17.35.08:814][576]LogInit: FAudioDevice initialized.
+[2015.07.23-17.35.08:853][576]LogWorld: Game class is 'GameMode'
+[2015.07.23-17.35.08:856][576]LogWorld: Bringing World /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level up for play (max tick rate 0) at 2015.07.23-13.35.08
+[2015.07.23-17.35.08:856][576]LogActor:Warning: GameSession /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.23-17.35.08:857][576]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.23-17.35.08:858][576]LogWorld: Bringing up level for play took: 0.002869
+[2015.07.23-17.35.08:861][576]LogFMOD: LoadBank Master_Bank
+[2015.07.23-17.35.08:862][576]PIE: Info Play in editor start time for /Game/UEDPIE_0_mainmenu_Level -0.3
+[2015.07.23-17.35.08:883][577]LogFMOD:Warning: e:\jk\workspace\Build__1.6rel__UE4Libs_Win\studio_api\src\fmod_bank_loader.cpp(66) - Failed to open file '../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Content/FMOD/Desktop/Master_Bank.bank'
+
+[2015.07.23-17.35.12:135][767]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B3A7535080
+[2015.07.23-17.35.12:144][767]LogEditorViewport: Clicking Background
+[2015.07.23-17.35.24:258][645]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.35.26:134][774]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.35.29:642][ 42]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.35.31:557][177]BlueprintLog: New page: Compile mainmenu
+[2015.07.23-17.35.31:753][177]BlueprintEditorCompileResults: Info [1600.98] Compile of mainmenu successful! [in 195 ms]
+[2015.07.23-17.35.32:461][229]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.35.32:477][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mainmenu" FILE="../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Content/mainmenu.uasset" SILENT=true
+[2015.07.23-17.35.32:569][229]LogSavePackage: Save=85.408249ms
+[2015.07.23-17.35.32:569][229]LogSavePackage: Moving '../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Saved/mainmenuB0D0D14D40408B57740519AE1223CC40.tmp' to '../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Content/mainmenu.uasset'
+[2015.07.23-17.35.33:091][263]LogFMOD: Creating Studio System
+[2015.07.23-17.35.33:099][263]LogFMOD:Warning: e:\jk\workspace\Build__1.6rel__UE4Libs_Win\lowlevel_api\src\fmod_systemi.cpp(2615) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.07.23-17.35.33:101][263]LogFMOD: Triggering Initialized on other modules
+[2015.07.23-17.35.33:101][263]LogFMOD: Loading Banks
+[2015.07.23-17.35.33:201][263]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.23-17.35.33:208][263]LogPlayLevel: [PIE] Compiling mainmenu_Level before PIE...
+[2015.07.23-17.35.33:329][263]LogPlayLevel: PIE:  Blueprint regeneration took 128 ms (1 blueprints)
+[2015.07.23-17.35.33:329][263]PIE: New page: PIE session: mainmenu_Level (Jul 23, 2015, 9:35:33 AM)
+[2015.07.23-17.35.33:330][263]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_mainmenu_Level
+[2015.07.23-17.35.33:333][263]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002848s)
+[2015.07.23-17.35.33:334][263]LogAIModule: Creating AISystem for world mainmenu_Level
+[2015.07.23-17.35.33:335][263]LogPlayLevel: PIE: World Init took: (0.001348s)
+[2015.07.23-17.35.33:335][263]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/mainmenu_Level.mainmenu_Level to /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level (0.004494s)
+[2015.07.23-17.35.33:377][263]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.23-17.35.33:382][263]LogInit: FAudioDevice initialized.
+[2015.07.23-17.35.33:421][263]LogWorld: Game class is 'GameMode'
+[2015.07.23-17.35.33:423][263]LogWorld: Bringing World /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level up for play (max tick rate 0) at 2015.07.23-13.35.33
+[2015.07.23-17.35.33:423][263]LogActor:Warning: GameSession /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.23-17.35.33:423][263]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.23-17.35.33:424][263]LogWorld: Bringing up level for play took: 0.001099
+[2015.07.23-17.35.33:426][263]LogFMOD: LoadBank Master_Bank
+[2015.07.23-17.35.33:427][263]PIE: Info Play in editor start time for /Game/UEDPIE_0_mainmenu_Level 0.265
+[2015.07.23-17.35.33:463][265]LogFMOD:Warning: e:\jk\workspace\Build__1.6rel__UE4Libs_Win\studio_api\src\fmod_bank_loader.cpp(66) - Failed to open file '../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Content/FMOD/Desktop/Master_Bank.bank'
+
+[2015.07.23-17.35.38:322][604]LogFMOD:Warning: e:\jk\workspace\Build__1.6rel__UE4Libs_Win\lowlevel_api\src\fmod_systemi.cpp(770) - mDSPCachePool not cleaned up properly!. 32 bytes remaining.
+
+[2015.07.23-17.35.38:325][604]LogFMOD:Warning: Failed to stop event instance
+[2015.07.23-17.35.38:423][605]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B3A9B1A200
+[2015.07.23-17.35.41:751][849]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.35.41:777][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mainmenu" FILE="../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Content/mainmenu.uasset" SILENT=true
+[2015.07.23-17.35.41:867][849]LogSavePackage: Save=84.466232ms
+[2015.07.23-17.35.41:867][849]LogSavePackage: Moving '../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Saved/mainmenuEF97955144B1844C5CA29F83DBE8670D.tmp' to '../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Content/mainmenu.uasset'
+[2015.07.23-17.36.10:628][588]LogEditorViewport: Clicking Background
+[2015.07.23-17.36.11:251][652]LogFMOD: Creating Studio System
+[2015.07.23-17.36.11:263][652]LogFMOD:Warning: e:\jk\workspace\Build__1.6rel__UE4Libs_Win\lowlevel_api\src\fmod_systemi.cpp(2615) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.07.23-17.36.11:265][652]LogFMOD: Triggering Initialized on other modules
+[2015.07.23-17.36.11:265][652]LogFMOD: Loading Banks
+[2015.07.23-17.36.11:365][652]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.23-17.36.11:376][652]LogPlayLevel: [PIE] Compiling mainmenu_Level before PIE...
+[2015.07.23-17.36.11:480][652]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B389891F80
+[2015.07.23-17.36.11:498][652]LogPlayLevel: PIE:  Blueprint regeneration took 132 ms (1 blueprints)
+[2015.07.23-17.36.11:498][652]PIE: New page: PIE session: mainmenu_Level (Jul 23, 2015, 9:36:11 AM)
+[2015.07.23-17.36.11:499][652]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_mainmenu_Level
+[2015.07.23-17.36.11:501][652]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002583s)
+[2015.07.23-17.36.11:502][652]LogAIModule: Creating AISystem for world mainmenu_Level
+[2015.07.23-17.36.11:503][652]LogPlayLevel: PIE: World Init took: (0.001368s)
+[2015.07.23-17.36.11:503][652]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/mainmenu_Level.mainmenu_Level to /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level (0.004309s)
+[2015.07.23-17.36.11:550][652]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.23-17.36.11:556][652]LogInit: FAudioDevice initialized.
+[2015.07.23-17.36.11:591][652]LogWorld: Game class is 'GameMode'
+[2015.07.23-17.36.11:593][652]LogWorld: Bringing World /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level up for play (max tick rate 0) at 2015.07.23-13.36.11
+[2015.07.23-17.36.11:593][652]LogActor:Warning: GameSession /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.23-17.36.11:594][652]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.23-17.36.11:594][652]LogWorld: Bringing up level for play took: 0.001050
+[2015.07.23-17.36.11:596][652]LogFMOD: LoadBank Master_Bank
+[2015.07.23-17.36.11:597][652]PIE: Info Play in editor start time for /Game/UEDPIE_0_mainmenu_Level 0.435
+[2015.07.23-17.36.11:616][653]LogFMOD:Warning: e:\jk\workspace\Build__1.6rel__UE4Libs_Win\studio_api\src\fmod_bank_loader.cpp(66) - Failed to open file '../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Content/FMOD/Desktop/Master_Bank.bank'
+
+[2015.07.23-17.36.18:866][478]LogFMOD:Warning: e:\jk\workspace\Build__1.6rel__UE4Libs_Win\lowlevel_api\src\fmod_systemi.cpp(770) - mDSPCachePool not cleaned up properly!. 32 bytes remaining.
+
+[2015.07.23-17.36.18:867][478]LogFMOD:Warning: Failed to stop event instance
+[2015.07.23-17.36.18:955][479]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B3A5D67EC0
+[2015.07.23-17.36.21:440][774]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.36.21:465][774]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.36.27:765][225]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.36.28:947][290]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.36.33:454][492]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.36.53:667][437]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.36.59:646][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0
+[2015.07.23-17.36.59:646][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_20.WidgetTree_323.CanvasPanel_0
+[2015.07.23-17.36.59:646][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_26.WidgetTree_403.CanvasPanel_0
+[2015.07.23-17.36.59:646][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Game/mainmenu.mainmenu_C:WidgetTree_485.CanvasPanel_0
+[2015.07.23-17.36.59:646][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_mainmenu_C_86:WidgetTree_374.CanvasPanel_0
+[2015.07.23-17.36.59:646][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_mainmenu_C_65:WidgetTree_292.CanvasPanel_0
+[2015.07.23-17.36.59:646][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_5.WidgetTree_248.CanvasPanel_0
+[2015.07.23-17.36.59:646][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_16.WidgetTree_290.CanvasPanel_0
+[2015.07.23-17.36.59:646][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_11.WidgetTree_209.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_1.WidgetTree_12.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_14.WidgetTree_264.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Game/mainmenu.mainmenu_C:WidgetTree_493.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_mainmenu_C_43:WidgetTree_216.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_4.WidgetTree_22.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_10.WidgetTree_205.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_3.WidgetTree_318.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Game/mainmenu.SKEL_mainmenu_C:WidgetTree_500.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_6.WidgetTree_30.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_9.WidgetTree_201.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_mainmenu_C_96:WidgetTree_429.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_3.WidgetTree_293.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_8.WidgetTree_38.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_18.WidgetTree_306.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_0.WidgetTree_58.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_0.WidgetTree_42.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_mainmenu_C_12:WidgetTree_41.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:mainmenu_C_34.WidgetTree_502.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_mainmenu_C_58:WidgetTree_267.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_SKEL_mainmenu_C_106:WidgetTree_477.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:mainmenu_C_31.WidgetTree_491.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:mainmenu_C_32.WidgetTree_494.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_21.WidgetTree_395.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_32.WidgetTree_419.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Game/mainmenu.mainmenu_C:WidgetTree_501.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_23.WidgetTree_399.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Game/mainmenu.mainmenu_C:WidgetTree_490.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_mainmenu_C_94:WidgetTree_418.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_SKEL_mainmenu_C_107:WidgetTree_492.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Game/mainmenu.mainmenu_C:WidgetTree_497.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_24.WidgetTree_339.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_SKEL_mainmenu_C_109:WidgetTree_500.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_25.WidgetTree_343.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:mainmenu_C_30.WidgetTree_489.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Game/mainmenu.mainmenu_C:WidgetTree_505.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:mainmenu_C_33.WidgetTree_498.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:mainmenu_C_35.WidgetTree_506.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Game/mainmenu.SKEL_mainmenu_C:WidgetTree_504.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Game/mainmenu.mainmenu_C:WidgetTree_488.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_29.WidgetTree_143.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_5.WidgetTree_310.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_SKEL_mainmenu_C_108:WidgetTree_496.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_30.WidgetTree_147.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_13.WidgetTree_260.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_2.WidgetTree_245.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_mainmenu_C_70:WidgetTree_309.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_7.WidgetTree_252.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_mainmenu_C_34:WidgetTree_154.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_12.WidgetTree_256.CanvasPanel_0
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_6201 or CanvasPanelSlot /Game/mainmenu.SKEL_mainmenu_C:WidgetTree_504.CanvasPanel_0.CanvasPanelSlot_6201
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_6201 or CanvasPanelSlot /Game/mainmenu.mainmenu_C:WidgetTree_505.CanvasPanel_0.CanvasPanelSlot_6201
+[2015.07.23-17.36.59:647][711]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_6201 or CanvasPanelSlot /Engine/Transient.World_5:mainmenu_C_35.WidgetTree_506.CanvasPanel_0.CanvasPanelSlot_6201
+[2015.07.23-17.36.59:648][711]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_6201) from referencer (Border /Engine/UMG/Editor/Transient.Border_30).  Import failed...
+[2015.07.23-17.36.59:648][711]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_6201''
+[2015.07.23-17.37.00:595][752]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.37.01:290][781]LogEditorTransaction: Undo Move Widget
+[2015.07.23-17.37.01:339][781]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.37.04:670][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0
+[2015.07.23-17.37.04:670][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_20.WidgetTree_323.CanvasPanel_0
+[2015.07.23-17.37.04:670][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_26.WidgetTree_403.CanvasPanel_0
+[2015.07.23-17.37.04:670][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Game/mainmenu.mainmenu_C:WidgetTree_485.CanvasPanel_0
+[2015.07.23-17.37.04:670][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_mainmenu_C_86:WidgetTree_374.CanvasPanel_0
+[2015.07.23-17.37.04:670][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_mainmenu_C_65:WidgetTree_292.CanvasPanel_0
+[2015.07.23-17.37.04:670][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_5.WidgetTree_248.CanvasPanel_0
+[2015.07.23-17.37.04:670][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_16.WidgetTree_290.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_11.WidgetTree_209.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_1.WidgetTree_12.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_SKEL_mainmenu_C_112:WidgetTree_512.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_14.WidgetTree_264.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Game/mainmenu.mainmenu_C:WidgetTree_493.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_mainmenu_C_43:WidgetTree_216.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_4.WidgetTree_22.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_10.WidgetTree_205.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_3.WidgetTree_318.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Game/mainmenu.SKEL_mainmenu_C:WidgetTree_516.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:mainmenu_C_37.WidgetTree_514.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_6.WidgetTree_30.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_9.WidgetTree_201.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_mainmenu_C_96:WidgetTree_429.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_3.WidgetTree_293.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_8.WidgetTree_38.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_18.WidgetTree_306.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_0.WidgetTree_58.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_0.WidgetTree_42.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_mainmenu_C_12:WidgetTree_41.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:mainmenu_C_34.WidgetTree_502.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_mainmenu_C_58:WidgetTree_267.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_SKEL_mainmenu_C_106:WidgetTree_477.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:mainmenu_C_31.WidgetTree_491.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:mainmenu_C_32.WidgetTree_494.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_21.WidgetTree_395.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_32.WidgetTree_419.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Game/mainmenu.mainmenu_C:WidgetTree_501.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_23.WidgetTree_399.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:mainmenu_C_38.WidgetTree_518.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Game/mainmenu.mainmenu_C:WidgetTree_490.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_mainmenu_C_94:WidgetTree_418.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_SKEL_mainmenu_C_107:WidgetTree_492.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Game/mainmenu.mainmenu_C:WidgetTree_519.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Game/mainmenu.mainmenu_C:WidgetTree_497.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_24.WidgetTree_339.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_SKEL_mainmenu_C_109:WidgetTree_500.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:mainmenu_C_39.WidgetTree_520.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_25.WidgetTree_343.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:mainmenu_C_30.WidgetTree_489.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Game/mainmenu.mainmenu_C:WidgetTree_505.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:mainmenu_C_33.WidgetTree_498.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:mainmenu_C_35.WidgetTree_506.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_SKEL_mainmenu_C_110:WidgetTree_504.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Game/mainmenu.mainmenu_C:WidgetTree_509.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Game/mainmenu.SKEL_mainmenu_C:WidgetTree_512.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:mainmenu_C_36.WidgetTree_510.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Game/mainmenu.mainmenu_C:WidgetTree_488.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_SKEL_mainmenu_C_111:WidgetTree_508.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_29.WidgetTree_143.CanvasPanel_0
+[2015.07.23-17.37.04:671][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_5.WidgetTree_310.CanvasPanel_0
+[2015.07.23-17.37.04:672][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_SKEL_mainmenu_C_108:WidgetTree_496.CanvasPanel_0
+[2015.07.23-17.37.04:672][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Game/mainmenu.mainmenu_C:WidgetTree_513.CanvasPanel_0
+[2015.07.23-17.37.04:672][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_30.WidgetTree_147.CanvasPanel_0
+[2015.07.23-17.37.04:672][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_13.WidgetTree_260.CanvasPanel_0
+[2015.07.23-17.37.04:672][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_2.WidgetTree_245.CanvasPanel_0
+[2015.07.23-17.37.04:672][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Game/mainmenu.mainmenu_C:WidgetTree_517.CanvasPanel_0
+[2015.07.23-17.37.04:672][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_mainmenu_C_70:WidgetTree_309.CanvasPanel_0
+[2015.07.23-17.37.04:672][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_7.WidgetTree_252.CanvasPanel_0
+[2015.07.23-17.37.04:672][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_mainmenu_C_34:WidgetTree_154.CanvasPanel_0
+[2015.07.23-17.37.04:672][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.World_3:REINST_mainmenu_C_1.WidgetTree_268.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:mainmenu_C_12.WidgetTree_256.CanvasPanel_0
+[2015.07.23-17.37.04:672][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_6201 or CanvasPanelSlot /Game/mainmenu.SKEL_mainmenu_C:WidgetTree_512.CanvasPanel_0.CanvasPanelSlot_6201
+[2015.07.23-17.37.04:672][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_6201 or CanvasPanelSlot /Game/mainmenu.mainmenu_C:WidgetTree_505.CanvasPanel_0.CanvasPanelSlot_6201
+[2015.07.23-17.37.04:672][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_6201 or CanvasPanelSlot /Engine/Transient.World_5:mainmenu_C_35.WidgetTree_506.CanvasPanel_0.CanvasPanelSlot_6201
+[2015.07.23-17.37.04:672][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_6201 or CanvasPanelSlot /Engine/Transient.REINST_SKEL_mainmenu_C_110:WidgetTree_504.CanvasPanel_0.CanvasPanelSlot_6201
+[2015.07.23-17.37.04:672][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_6201 or CanvasPanelSlot /Game/mainmenu.SKEL_mainmenu_C:WidgetTree_516.CanvasPanel_0.CanvasPanelSlot_6201
+[2015.07.23-17.37.04:672][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_6201 or CanvasPanelSlot /Game/mainmenu.mainmenu_C:WidgetTree_509.CanvasPanel_0.CanvasPanelSlot_6201
+[2015.07.23-17.37.04:672][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_6201 or CanvasPanelSlot /Engine/Transient.World_5:mainmenu_C_36.WidgetTree_510.CanvasPanel_0.CanvasPanelSlot_6201
+[2015.07.23-17.37.04:672][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_6201 or CanvasPanelSlot /Engine/Transient.REINST_SKEL_mainmenu_C_111:WidgetTree_508.CanvasPanel_0.CanvasPanelSlot_6201
+[2015.07.23-17.37.04:672][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_6201 or CanvasPanelSlot /Game/mainmenu.mainmenu_C:WidgetTree_513.CanvasPanel_0.CanvasPanelSlot_6201
+[2015.07.23-17.37.04:672][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_6201 or CanvasPanelSlot /Engine/Transient.World_5:mainmenu_C_37.WidgetTree_514.CanvasPanel_0.CanvasPanelSlot_6201
+[2015.07.23-17.37.04:672][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_6201 or CanvasPanelSlot /Engine/Transient.REINST_SKEL_mainmenu_C_112:WidgetTree_512.CanvasPanel_0.CanvasPanelSlot_6201
+[2015.07.23-17.37.04:672][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_6201 or CanvasPanelSlot /Game/mainmenu.mainmenu_C:WidgetTree_517.CanvasPanel_0.CanvasPanelSlot_6201
+[2015.07.23-17.37.04:672][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_6201 or CanvasPanelSlot /Engine/Transient.World_5:mainmenu_C_38.WidgetTree_518.CanvasPanel_0.CanvasPanelSlot_6201
+[2015.07.23-17.37.04:672][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_6201 or CanvasPanelSlot /Game/mainmenu.mainmenu_C:WidgetTree_519.CanvasPanel_0.CanvasPanelSlot_6201
+[2015.07.23-17.37.04:672][939]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_6201 or CanvasPanelSlot /Engine/Transient.World_5:mainmenu_C_39.WidgetTree_520.CanvasPanel_0.CanvasPanelSlot_6201
+[2015.07.23-17.37.04:672][939]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/mainmenu.mainmenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_6201) from referencer (Border /Engine/UMG/Editor/Transient.Border_30).  Import failed...
+[2015.07.23-17.37.04:672][939]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_6201''
+[2015.07.23-17.37.10:438][235]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.37.20:936][849]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.37.52:970][896]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.38.01:971][923]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.38.02:145][923]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/mainmenu_Level' took 0.056
+[2015.07.23-17.38.02:153][923]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/mainmenu] ([1] browsable assets)...
+[2015.07.23-17.38.02:153][923]OBJ SavePackage: Finished generating thumbnails for package [/Game/mainmenu]
+[2015.07.23-17.38.02:153][923]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mainmenu" FILE="../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Saved/Autosaves/Game/mainmenu_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.07.23-17.38.02:241][923]LogSavePackage: Save=81.917061ms
+[2015.07.23-17.38.02:241][923]LogSavePackage: Moving '../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Saved/mainmenu_Auto1606036EE4B48858052480BB38F68D9B5.tmp' to '../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Saved/Autosaves/Game/mainmenu_Auto1.uasset'
+[2015.07.23-17.38.02:244][923]LogFileHelpers: Auto-saving content packages took 0.098
+[2015.07.23-17.38.28:051][361]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.38.38:123][ 27]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.39.03:104][660]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.39.33:206][490]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.39.38:419][829]BlueprintLog: New page: Compile mainmenu
+[2015.07.23-17.39.38:566][829]BlueprintEditorCompileResults: Info [1847.79] Compile of mainmenu successful! [in 147 ms]
+[2015.07.23-17.39.38:956][854]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.39.38:975][854]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mainmenu" FILE="../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Content/mainmenu.uasset" SILENT=true
+[2015.07.23-17.39.39:060][854]LogSavePackage: Save=79.861870ms
+[2015.07.23-17.39.39:060][854]LogSavePackage: Moving '../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Saved/mainmenuD399EAF148F29397C907F18043C6CA29.tmp' to '../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Content/mainmenu.uasset'
+[2015.07.23-17.39.39:461][878]LogFMOD: Creating Studio System
+[2015.07.23-17.39.39:469][878]LogFMOD:Warning: e:\jk\workspace\Build__1.6rel__UE4Libs_Win\lowlevel_api\src\fmod_systemi.cpp(2615) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.07.23-17.39.39:471][878]LogFMOD: Triggering Initialized on other modules
+[2015.07.23-17.39.39:471][878]LogFMOD: Loading Banks
+[2015.07.23-17.39.39:581][878]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.23-17.39.39:588][878]LogPlayLevel: [PIE] Compiling mainmenu_Level before PIE...
+[2015.07.23-17.39.39:687][878]LogPlayLevel: PIE:  Blueprint regeneration took 106 ms (1 blueprints)
+[2015.07.23-17.39.39:688][878]PIE: New page: PIE session: mainmenu_Level (Jul 23, 2015, 9:39:39 AM)
+[2015.07.23-17.39.39:688][878]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_mainmenu_Level
+[2015.07.23-17.39.39:691][878]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002589s)
+[2015.07.23-17.39.39:691][878]LogAIModule: Creating AISystem for world mainmenu_Level
+[2015.07.23-17.39.39:692][878]LogPlayLevel: PIE: World Init took: (0.001154s)
+[2015.07.23-17.39.39:692][878]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/mainmenu_Level.mainmenu_Level to /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level (0.003895s)
+[2015.07.23-17.39.39:728][878]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.23-17.39.39:732][878]LogInit: FAudioDevice initialized.
+[2015.07.23-17.39.39:770][878]LogWorld: Game class is 'GameMode'
+[2015.07.23-17.39.39:772][878]LogWorld: Bringing World /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level up for play (max tick rate 0) at 2015.07.23-13.39.39
+[2015.07.23-17.39.39:772][878]LogActor:Warning: GameSession /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.23-17.39.39:773][878]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.23-17.39.39:773][878]LogWorld: Bringing up level for play took: 0.001006
+[2015.07.23-17.39.39:775][878]LogFMOD: LoadBank Master_Bank
+[2015.07.23-17.39.39:776][878]PIE: Info Play in editor start time for /Game/UEDPIE_0_mainmenu_Level 0.615
+[2015.07.23-17.39.39:831][879]LogFMOD:Warning: e:\jk\workspace\Build__1.6rel__UE4Libs_Win\studio_api\src\fmod_bank_loader.cpp(66) - Failed to open file '../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Content/FMOD/Desktop/Master_Bank.bank'
+
+[2015.07.23-17.39.49:168][268]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B3A1F68FE0
+[2015.07.23-17.39.49:770][314]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.39.51:556][445]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.39.54:609][673]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.39.56:377][804]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.40.11:909][885]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.40.12:556][961]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.40.12:819][990]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.40.13:500][ 69]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.40.13:776][101]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.40.13:809][103]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.40.14:660][203]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.40.14:690][205]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.40.14:823][219]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.40.16:598][427]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.40.17:605][544]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.40.19:074][713]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.40.23:378][224]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.40.25:951][525]LogFMOD: Creating Studio System
+[2015.07.23-17.40.25:959][525]LogFMOD:Warning: e:\jk\workspace\Build__1.6rel__UE4Libs_Win\lowlevel_api\src\fmod_systemi.cpp(2615) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.07.23-17.40.25:960][525]LogFMOD: Triggering Initialized on other modules
+[2015.07.23-17.40.25:960][525]LogFMOD: Loading Banks
+[2015.07.23-17.40.26:062][525]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.23-17.40.26:069][525]LogPlayLevel: [PIE] Compiling mainmenu_Level before PIE...
+[2015.07.23-17.40.26:179][525]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B39BDC2980
+[2015.07.23-17.40.26:179][525]LogPlayLevel: PIE:  Blueprint regeneration took 117 ms (1 blueprints)
+[2015.07.23-17.40.26:180][525]PIE: New page: PIE session: mainmenu_Level (Jul 23, 2015, 9:40:26 AM)
+[2015.07.23-17.40.26:180][525]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_mainmenu_Level
+[2015.07.23-17.40.26:183][525]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003091s)
+[2015.07.23-17.40.26:184][525]LogAIModule: Creating AISystem for world mainmenu_Level
+[2015.07.23-17.40.26:184][525]LogPlayLevel: PIE: World Init took: (0.001144s)
+[2015.07.23-17.40.26:185][525]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/mainmenu_Level.mainmenu_Level to /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level (0.004422s)
+[2015.07.23-17.40.26:232][525]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.23-17.40.26:237][525]LogInit: FAudioDevice initialized.
+[2015.07.23-17.40.26:275][525]LogWorld: Game class is 'GameMode'
+[2015.07.23-17.40.26:277][525]LogWorld: Bringing World /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level up for play (max tick rate 0) at 2015.07.23-13.40.26
+[2015.07.23-17.40.26:277][525]LogActor:Warning: GameSession /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.23-17.40.26:278][525]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.23-17.40.26:278][525]LogWorld: Bringing up level for play took: 0.000972
+[2015.07.23-17.40.26:281][525]LogFMOD: LoadBank Master_Bank
+[2015.07.23-17.40.26:281][525]PIE: Info Play in editor start time for /Game/UEDPIE_0_mainmenu_Level 1.12
+[2015.07.23-17.40.26:321][528]LogFMOD:Warning: e:\jk\workspace\Build__1.6rel__UE4Libs_Win\studio_api\src\fmod_bank_loader.cpp(66) - Failed to open file '../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Content/FMOD/Desktop/Master_Bank.bank'
+
+[2015.07.23-17.40.30:310][  0]LogBlueprintUserMessages: Loading...
+[2015.07.23-17.40.30:404][  0]LogPackageName: SearchForPackageOnDisk took   0.094s to resolve NewMap.umap
+[2015.07.23-17.40.30:493][  0]LogPackageName: SearchForPackageOnDisk took   0.088s to resolve NewMap.umap
+[2015.07.23-17.40.30:493][  0]LogNet: Browse: /Game/NewMap
+[2015.07.23-17.40.30:493][  0]LogLoad: LoadMap: /Game/NewMap
+[2015.07.23-17.40.30:528][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B3898919E0
+[2015.07.23-17.40.30:531][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B39BDC2200
+[2015.07.23-17.40.30:580][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B3A23D2200
+[2015.07.23-17.40.30:580][  0]Cmd: MEM
+[2015.07.23-17.40.30:619][  0]LogMemory: Platform Memory Stats for Windows
+[2015.07.23-17.40.30:620][  0]LogMemory: Process Physical Memory: 718.42 MB used, 747.61 MB peak
+[2015.07.23-17.40.30:620][  0]LogMemory: Process Virtual Memory: 577.36 MB used, 598.77 MB peak
+[2015.07.23-17.40.30:620][  0]LogMemory: Physical Memory: 6159.59 MB used, 20397.11 MB total
+[2015.07.23-17.40.30:620][  0]LogMemory: Virtual Memory: 1314.36 MB used, 134217728.00 MB total
+[2015.07.23-17.40.30:620][  0]LogMemory: 
+[2015.07.23-17.40.30:620][  0]Allocator Stats for TBB: (not implemented)
+[2015.07.23-17.40.31:219][  0]LogAIModule: Creating AISystem for world NewMap
+[2015.07.23-17.40.31:221][  0]LogWorld: Game class is 'GameMode'
+[2015.07.23-17.40.31:226][  0]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2015.07.23-13.40.31
+[2015.07.23-17.40.31:226][  0]LogActor:Warning: GameSession /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameSession_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.23-17.40.31:226][  0]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameNetworkManager_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.23-17.40.31:226][  0]LogWorld: Bringing up level for play took: 0.003640
+[2015.07.23-17.40.31:355][  5]LogFMOD:Warning: e:\jk\workspace\Build__1.6rel__UE4Libs_Win\studio_api\src\fmod_playback_instrument.cpp(1072) - Loading delay exceeded, sound may play at incorrect time
+
+[2015.07.23-17.40.34:127][292]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B3A7534900
+[2015.07.23-17.40.35:102][396]LogFMOD: Creating Studio System
+[2015.07.23-17.40.35:110][396]LogFMOD:Warning: e:\jk\workspace\Build__1.6rel__UE4Libs_Win\lowlevel_api\src\fmod_systemi.cpp(2615) - Output requires a sample rate of 44100Hz, resampling will occur.
+
+[2015.07.23-17.40.35:112][396]LogFMOD: Triggering Initialized on other modules
+[2015.07.23-17.40.35:112][396]LogFMOD: Loading Banks
+[2015.07.23-17.40.35:212][396]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.07.23-17.40.35:222][396]LogPlayLevel: [PIE] Compiling mainmenu_Level before PIE...
+[2015.07.23-17.40.35:324][396]LogPlayLevel: PIE:  Blueprint regeneration took 112 ms (1 blueprints)
+[2015.07.23-17.40.35:324][396]PIE: New page: PIE session: mainmenu_Level (Jul 23, 2015, 9:40:35 AM)
+[2015.07.23-17.40.35:324][396]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_mainmenu_Level
+[2015.07.23-17.40.35:327][396]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002435s)
+[2015.07.23-17.40.35:327][396]LogAIModule: Creating AISystem for world mainmenu_Level
+[2015.07.23-17.40.35:328][396]LogPlayLevel: PIE: World Init took: (0.001082s)
+[2015.07.23-17.40.35:328][396]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/mainmenu_Level.mainmenu_Level to /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level (0.003674s)
+[2015.07.23-17.40.35:370][396]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.23-17.40.35:375][396]LogInit: FAudioDevice initialized.
+[2015.07.23-17.40.35:423][396]LogWorld: Game class is 'GameMode'
+[2015.07.23-17.40.35:425][396]LogWorld: Bringing World /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level up for play (max tick rate 0) at 2015.07.23-13.40.35
+[2015.07.23-17.40.35:425][396]LogActor:Warning: GameSession /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level:PersistentLevel.GameSession_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.23-17.40.35:425][396]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_mainmenu_Level.mainmenu_Level:PersistentLevel.GameNetworkManager_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.23-17.40.35:426][396]LogWorld: Bringing up level for play took: 0.001149
+[2015.07.23-17.40.35:428][396]LogFMOD: LoadBank Master_Bank
+[2015.07.23-17.40.35:429][396]PIE: Info Play in editor start time for /Game/UEDPIE_0_mainmenu_Level 0.268
+[2015.07.23-17.40.35:477][401]LogFMOD:Warning: e:\jk\workspace\Build__1.6rel__UE4Libs_Win\studio_api\src\fmod_bank_loader.cpp(66) - Failed to open file '../../../../../../Users/Dominic/Documents/GitHub/EyesShutGame/eyes_shut/Content/FMOD/Desktop/Master_Bank.bank'
+
+[2015.07.23-17.40.37:510][558]LogBlueprintUserMessages: Options button Clicked
+[2015.07.23-17.40.37:557][564]LogFMOD:Warning: e:\jk\workspace\Build__1.6rel__UE4Libs_Win\studio_api\src\fmod_playback_instrument.cpp(1072) - Loading delay exceeded, sound may play at incorrect time
+
+[2015.07.23-17.40.38:253][647]LogBlueprintUserMessages: Options button Clicked
+[2015.07.23-17.40.41:551][ 42]LogBlueprintUserMessages: Loading...
+[2015.07.23-17.40.41:636][ 42]LogPackageName: SearchForPackageOnDisk took   0.085s to resolve NewMap.umap
+[2015.07.23-17.40.41:737][ 42]LogPackageName: SearchForPackageOnDisk took   0.100s to resolve NewMap.umap
+[2015.07.23-17.40.41:737][ 42]LogNet: Browse: /Game/NewMap
+[2015.07.23-17.40.41:737][ 42]LogLoad: LoadMap: /Game/NewMap
+[2015.07.23-17.40.41:774][ 42]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B39A5E1800
+[2015.07.23-17.40.41:774][ 42]Cmd: MEM
+[2015.07.23-17.40.41:803][ 42]LogMemory: Platform Memory Stats for Windows
+[2015.07.23-17.40.41:803][ 42]LogMemory: Process Physical Memory: 748.40 MB used, 757.04 MB peak
+[2015.07.23-17.40.41:803][ 42]LogMemory: Process Virtual Memory: 609.24 MB used, 619.69 MB peak
+[2015.07.23-17.40.41:803][ 42]LogMemory: Physical Memory: 6194.08 MB used, 20397.11 MB total
+[2015.07.23-17.40.41:803][ 42]LogMemory: Virtual Memory: 1350.97 MB used, 134217728.00 MB total
+[2015.07.23-17.40.41:803][ 42]LogMemory: 
+[2015.07.23-17.40.41:803][ 42]Allocator Stats for TBB: (not implemented)
+[2015.07.23-17.40.41:912][ 42]LogAIModule: Creating AISystem for world NewMap
+[2015.07.23-17.40.41:913][ 42]LogWorld: Game class is 'GameMode'
+[2015.07.23-17.40.41:917][ 42]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2015.07.23-13.40.41
+[2015.07.23-17.40.41:917][ 42]LogActor:Warning: GameSession /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameSession_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.23-17.40.41:918][ 42]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.GameNetworkManager_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.23-17.40.41:918][ 42]LogWorld: Bringing up level for play took: 0.003327
+[2015.07.23-17.40.41:993][ 46]LogFMOD:Warning: e:\jk\workspace\Build__1.6rel__UE4Libs_Win\studio_api\src\fmod_playback_instrument.cpp(1072) - Loading delay exceeded, sound may play at incorrect time
+
+[2015.07.23-17.40.43:453][192]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B3A1D43100
+[2015.07.23-17.40.44:971][373]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.40.47:764][698]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.40.48:051][731]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.40.48:184][745]LogD3D11RHI: InitD3DDevice
+[2015.07.23-17.40.49:164][862]Cmd: CLOSE_SLATE_MAINFRAME
+[2015.07.23-17.40.49:516][863]Cmd: QUIT_EDITOR
+[2015.07.23-17.40.49:681][863]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.07.23-17.40.49:790][863]LogExit: Preparing to exit.
+[2015.07.23-17.40.50:064][863]LogExit: Editor shut down
+[2015.07.23-17.40.50:065][863]LogExit: Transaction tracking system shut down
+[2015.07.23-17.40.50:066][863]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B38C177240
+[2015.07.23-17.40.50:067][863]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B389A8AE80
+[2015.07.23-17.40.50:067][863]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B38DD11800
+[2015.07.23-17.40.50:268][863]LogExit: Object subsystem successfully closed.
+[2015.07.23-17.40.50:281][863]LogD3D11RHI: Shutdown
+[2015.07.23-17.40.50:281][863]LogD3D11RHI: CleanupD3DDevice
+[2015.07.23-17.40.50:340][863]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.07.23-17.40.50:370][863]LogModuleManager: Shutting down and abandoning module SequencerWidgets (196)
+[2015.07.23-17.40.50:370][863]LogModuleManager: Shutting down and abandoning module FontEditor (195)
+[2015.07.23-17.40.50:370][863]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (194)
+[2015.07.23-17.40.50:370][863]LogModuleManager: Shutting down and abandoning module CrashTracker (193)
+[2015.07.23-17.40.50:370][863]LogModuleManager: Shutting down and abandoning module SceneOutliner (192)
+[2015.07.23-17.40.50:370][863]LogModuleManager: Shutting down and abandoning module SuperSearch (191)
+[2015.07.23-17.40.50:370][863]LogModuleManager: Shutting down and abandoning module WidgetCarousel (190)
+[2015.07.23-17.40.50:370][863]LogModuleManager: Shutting down and abandoning module AddContentDialog (189)
+[2015.07.23-17.40.50:371][863]LogModuleManager: Shutting down and abandoning module EditorWidgets (188)
+[2015.07.23-17.40.50:371][863]LogModuleManager: Shutting down and abandoning module CollectionManager (187)
+[2015.07.23-17.40.50:371][863]LogModuleManager: Shutting down and abandoning module StatsViewer (186)
+[2015.07.23-17.40.50:371][863]LogModuleManager: Shutting down and abandoning module FoliageEdit (185)
+[2015.07.23-17.40.50:371][863]LogModuleManager: Shutting down and abandoning module LandscapeEditor (184)
+[2015.07.23-17.40.50:371][863]LogModuleManager: Shutting down and abandoning module ActorPickerMode (183)
+[2015.07.23-17.40.50:371][863]LogModuleManager: Shutting down and abandoning module GeometryMode (182)
+[2015.07.23-17.40.50:371][863]LogModuleManager: Shutting down and abandoning module TextureAlignMode (181)
+[2015.07.23-17.40.50:371][863]LogModuleManager: Shutting down and abandoning module BspMode (180)
+[2015.07.23-17.40.50:371][863]LogModuleManager: Shutting down and abandoning module PlacementMode (179)
+[2015.07.23-17.40.50:371][863]LogModuleManager: Shutting down and abandoning module AutomationWorker (178)
+[2015.07.23-17.40.50:371][863]LogModuleManager: Shutting down and abandoning module CharacterAI (177)
+[2015.07.23-17.40.50:371][863]LogModuleManager: Shutting down and abandoning module SmartSnapping (176)
+[2015.07.23-17.40.50:371][863]LogModuleManager: Shutting down and abandoning module ViewportSnapping (175)
+[2015.07.23-17.40.50:371][863]LogModuleManager: Shutting down and abandoning module LogVisualizer (174)
+[2015.07.23-17.40.50:372][863]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (173)
+[2015.07.23-17.40.50:372][863]LogModuleManager: Shutting down and abandoning module IntroTutorials (172)
+[2015.07.23-17.40.50:372][863]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (171)
+[2015.07.23-17.40.50:372][863]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (170)
+[2015.07.23-17.40.50:372][863]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (169)
+[2015.07.23-17.40.50:372][863]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (168)
+[2015.07.23-17.40.51:237][863]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (167)
+[2015.07.23-17.40.51:237][863]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (166)
+[2015.07.23-17.40.51:237][863]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (165)
+[2015.07.23-17.40.51:237][863]LogModuleManager: Shutting down and abandoning module MergeActors (164)
+[2015.07.23-17.40.51:237][863]LogModuleManager: Shutting down and abandoning module SizeMap (163)
+[2015.07.23-17.40.51:237][863]LogModuleManager: Shutting down and abandoning module TreeMap (162)
+[2015.07.23-17.40.51:237][863]LogModuleManager: Shutting down and abandoning module ReferenceViewer (161)
+[2015.07.23-17.40.51:237][863]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (160)
+[2015.07.23-17.40.51:237][863]LogModuleManager: Shutting down and abandoning module HardwareTargeting (159)
+[2015.07.23-17.40.51:237][863]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (158)
+[2015.07.23-17.40.51:237][863]LogModuleManager: Shutting down and abandoning module UndoHistory (157)
+[2015.07.23-17.40.51:237][863]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (156)
+[2015.07.23-17.40.51:237][863]LogModuleManager: Shutting down and abandoning module UserFeedback (155)
+[2015.07.23-17.40.51:237][863]LogModuleManager: Shutting down and abandoning module XmlParser (154)
+[2015.07.23-17.40.51:237][863]LogModuleManager: Shutting down and abandoning module Blutility (153)
+[2015.07.23-17.40.51:237][863]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (152)
+[2015.07.23-17.40.51:237][863]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (151)
+[2015.07.23-17.40.51:237][863]LogModuleManager: Shutting down and abandoning module InputBindingEditor (150)
+[2015.07.23-17.40.51:237][863]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (149)
+[2015.07.23-17.40.51:237][863]LogModuleManager: Shutting down and abandoning module SettingsEditor (148)
+[2015.07.23-17.40.51:237][863]LogModuleManager: Shutting down and abandoning module ProjectLauncher (147)
+[2015.07.23-17.40.51:237][863]LogModuleManager: Shutting down and abandoning module SessionFrontend (146)
+[2015.07.23-17.40.51:237][863]LogModuleManager: Shutting down and abandoning module ProfilerClient (145)
+[2015.07.23-17.40.51:237][863]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (144)
+[2015.07.23-17.40.51:237][863]LogModuleManager: Shutting down and abandoning module DeviceManager (143)
+[2015.07.23-17.40.51:237][863]LogModuleManager: Shutting down and abandoning module AutomationController (142)
+[2015.07.23-17.40.51:237][863]LogModuleManager: Shutting down and abandoning module AutomationWindow (141)
+[2015.07.23-17.40.51:237][863]LogModuleManager: Shutting down and abandoning module Layers (140)
+[2015.07.23-17.40.51:237][863]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (139)
+[2015.07.23-17.40.51:238][863]LogModuleManager: Shutting down and abandoning module DetailCustomizations (138)
+[2015.07.23-17.40.51:238][863]LogModuleManager: Shutting down and abandoning module PackagesDialog (137)
+[2015.07.23-17.40.51:238][863]LogModuleManager: Shutting down and abandoning module Persona (136)
+[2015.07.23-17.40.51:238][863]LogModuleManager: Shutting down and abandoning module Kismet (135)
+[2015.07.23-17.40.51:238][863]LogModuleManager: Shutting down and abandoning module GraphEditor (134)
+[2015.07.23-17.40.51:238][863]LogModuleManager: Shutting down and abandoning module ClassViewer (133)
+[2015.07.23-17.40.51:238][863]LogModuleManager: Shutting down and abandoning module Toolbox (132)
+[2015.07.23-17.40.51:238][863]LogModuleManager: Shutting down and abandoning module ModuleUI (131)
+[2015.07.23-17.40.51:238][863]LogModuleManager: Shutting down and abandoning module MovieSceneTools (130)
+[2015.07.23-17.40.51:238][863]LogModuleManager: Shutting down and abandoning module OutputLog (129)
+[2015.07.23-17.40.51:238][863]LogModuleManager: Shutting down and abandoning module GammaUI (128)
+[2015.07.23-17.40.51:238][863]LogModuleManager: Shutting down and abandoning module Documentation (127)
+[2015.07.23-17.40.51:238][863]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (126)
+[2015.07.23-17.40.51:238][863]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (125)
+[2015.07.23-17.40.51:238][863]LogModuleManager: Shutting down and abandoning module AnalyticsET (124)
+[2015.07.23-17.40.51:238][863]LogModuleManager: Shutting down and abandoning module Analytics (123)
+[2015.07.23-17.40.51:238][863]LogModuleManager: Shutting down and abandoning module AITestSuite (122)
+[2015.07.23-17.40.51:238][863]LogModuleManager: Shutting down and abandoning module GameplayDebugger (121)
+[2015.07.23-17.40.51:238][863]LogModuleManager: Shutting down and abandoning module AIModule (120)
+[2015.07.23-17.40.51:238][863]LogModuleManager: Shutting down and abandoning module ProfilerService (119)
+[2015.07.23-17.40.51:365][863]LogModuleManager: Shutting down and abandoning module TaskGraph (118)
+[2015.07.23-17.40.51:365][863]LogModuleManager: Shutting down and abandoning module SubstanceEditor (117)
+[2015.07.23-17.40.51:365][863]LogModuleManager: Shutting down and abandoning module SlateRemote (116)
+[2015.07.23-17.40.51:365][863]LogModuleManager: Shutting down and abandoning module SteamVRController (115)
+[2015.07.23-17.40.51:365][863]LogModuleManager: Shutting down and abandoning module SteamVR (114)
+[2015.07.23-17.40.51:365][863]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (113)
+[2015.07.23-17.40.51:365][863]LogModuleManager: Shutting down and abandoning module OculusRift (112)
+[2015.07.23-17.40.51:365][863]LogModuleManager: Shutting down and abandoning module LeapMotionController (111)
+[2015.07.23-17.40.51:377][863]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (110)
+[2015.07.23-17.40.51:377][863]LogModuleManager: Shutting down and abandoning module CableComponent (109)
+[2015.07.23-17.40.51:377][863]LogModuleManager: Shutting down and abandoning module MessagingDebugger (108)
+[2015.07.23-17.40.51:377][863]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (107)
+[2015.07.23-17.40.51:377][863]LogModuleManager: Shutting down and abandoning module FMODStudioEditor (106)
+[2015.07.23-17.40.51:377][863]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (105)
+[2015.07.23-17.40.51:377][863]LogModuleManager: Shutting down and abandoning module PluginBrowser (104)
+[2015.07.23-17.40.51:377][863]LogModuleManager: Shutting down and abandoning module EpicSurvey (103)
+[2015.07.23-17.40.51:377][863]LogModuleManager: Shutting down and abandoning module DesktopPlatform (102)
+[2015.07.23-17.40.51:377][863]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (101)
+[2015.07.23-17.40.51:377][863]LogModuleManager: Shutting down and abandoning module UObjectPlugin (100)
+[2015.07.23-17.40.51:377][863]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (99)
+[2015.07.23-17.40.51:377][863]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (98)
+[2015.07.23-17.40.51:377][863]LogModuleManager: Shutting down and abandoning module SourceControl (97)
+[2015.07.23-17.40.51:377][863]LogModuleManager: Shutting down and abandoning module GitSourceControl (96)
+[2015.07.23-17.40.51:377][863]LogModuleManager: Shutting down and abandoning module BlankPlugin (95)
+[2015.07.23-17.40.51:377][863]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (94)
+[2015.07.23-17.40.51:377][863]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (93)
+[2015.07.23-17.40.51:377][863]LogModuleManager: Shutting down and abandoning module MeshPaint (92)
+[2015.07.23-17.40.51:377][863]LogModuleManager: Shutting down and abandoning module SlateReflector (91)
+[2015.07.23-17.40.51:377][863]LogModuleManager: Shutting down and abandoning module HotReload (90)
+[2015.07.23-17.40.51:377][863]LogModuleManager: Shutting down and abandoning module MainFrame (89)
+[2015.07.23-17.40.51:377][863]LogModuleManager: Shutting down and abandoning module LevelEditor (88)
+[2015.07.23-17.40.51:378][863]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2015.07.23-17.40.51:379][863]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2015.07.23-17.40.51:379][863]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.07.23-17.40.51:480][863]LogModuleManager: Shutting down and abandoning module SubstanceCore (84)
+[2015.07.23-17.40.51:480][863]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (83)
+[2015.07.23-17.40.51:480][863]LogModuleManager: Shutting down and abandoning module AssetRegistry (82)
+[2015.07.23-17.40.51:538][863]LogModuleManager: Shutting down and abandoning module FMODStudio (81)
+[2015.07.23-17.40.51:767][863]LogModuleManager: Shutting down and abandoning module FMODStudioOculus (80)
+[2015.07.23-17.40.51:767][863]LogFMODOculus: ShutdownModule
+[2015.07.23-17.40.51:767][863]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.07.23-17.40.51:767][863]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.07.23-17.40.51:769][863]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.07.23-17.40.51:769][863]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.07.23-17.40.51:769][863]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.07.23-17.40.51:769][863]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.07.23-17.40.51:769][863]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.07.23-17.40.51:769][863]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.07.23-17.40.51:769][863]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.07.23-17.40.51:769][863]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.07.23-17.40.51:769][863]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.07.23-17.40.51:769][863]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.07.23-17.40.51:769][863]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.07.23-17.40.51:769][863]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.07.23-17.40.51:769][863]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.07.23-17.40.51:769][863]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.07.23-17.40.51:769][863]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.07.23-17.40.51:772][863]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.07.23-17.40.51:772][863]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.07.23-17.40.51:772][863]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.07.23-17.40.51:772][863]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.07.23-17.40.51:772][863]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.07.23-17.40.51:772][863]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.07.23-17.40.51:772][863]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.07.23-17.40.51:772][863]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.07.23-17.40.51:772][863]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.07.23-17.40.51:772][863]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.07.23-17.40.51:777][863]LogDerivedDataCache: Shutdown
+[2015.07.23-17.40.51:777][863]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.07.23-17.40.51:777][863]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.07.23-17.40.51:777][863]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.07.23-17.40.51:777][863]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.07.23-17.40.51:777][863]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.07.23-17.40.51:777][863]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.07.23-17.40.51:777][863]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.07.23-17.40.51:777][863]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.07.23-17.40.51:777][863]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.07.23-17.40.51:777][863]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.07.23-17.40.51:777][863]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.07.23-17.40.51:777][863]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.07.23-17.40.51:777][863]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.07.23-17.40.51:777][863]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.07.23-17.40.51:777][863]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.07.23-17.40.51:777][863]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.07.23-17.40.51:777][863]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.07.23-17.40.51:777][863]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.07.23-17.40.51:777][863]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.07.23-17.40.51:777][863]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.07.23-17.40.51:777][863]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.07.23-17.40.51:777][863]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.07.23-17.40.51:777][863]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.07.23-17.40.51:777][863]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.07.23-17.40.51:777][863]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.07.23-17.40.51:777][863]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.07.23-17.40.51:777][863]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.07.23-17.40.51:777][863]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.07.23-17.40.51:777][863]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.07.23-17.40.51:777][863]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.07.23-17.40.51:777][863]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.07.23-17.40.51:777][863]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.07.23-17.40.51:777][863]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.07.23-17.40.51:777][863]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.07.23-17.40.51:777][863]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.07.23-17.40.51:777][863]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.07.23-17.40.51:777][863]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.07.23-17.40.51:777][863]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.07.23-17.40.51:777][863]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.07.23-17.40.51:777][863]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.07.23-17.40.51:777][863]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.07.23-17.40.51:781][863]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.07.23-17.40.51:781][863]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.07.23-17.40.51:781][863]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.07.23-17.40.51:781][863]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.07.23-17.40.51:781][863]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.07.23-17.40.51:781][863]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.07.23-17.40.51:781][863]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.07.23-17.40.51:781][863]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.07.23-17.40.51:781][863]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.07.23-17.40.51:781][863]LogExit: Exiting.
+[2015.07.23-17.40.51:791][863]Log file closed, 07/23/15 13:40:51
