@@ -3,6 +3,7 @@
     <object class="MasterBank" id="{19e7d1fd-6ea0-4d50-a6b3-e8ee7def6b56}">
         <relationship name="buildSettings">
             <destination>{db04706e-e420-4b62-9013-635504eb1560}</destination>
+            <destination>{48456523-7f3d-4625-a8b5-e6cbdf743449}</destination>
         </relationship>
         <relationship name="folder">
             <destination>{3bb06413-b28b-4640-8372-e882e3001690}</destination>
@@ -16,6 +17,16 @@
         </relationship>
         <relationship name="activeCompressionSetting">
             <destination>{dab19ef8-816c-4eae-b359-e057a615af9d}</destination>
+        </relationship>
+    </object>
+    <object class="MobileBuildSetting" id="{48456523-7f3d-4625-a8b5-e6cbdf743449}">
+        <relationship name="compressionSettings">
+            <destination>{0f2359e8-58e6-4503-b2e8-33fb097abe9c}</destination>
+            <destination>{4b5de5c7-0d41-4562-951e-ef01d1a6b0f6}</destination>
+            <destination>{b2d9f952-4b78-4016-9963-0338b7795206}</destination>
+        </relationship>
+        <relationship name="activeCompressionSetting">
+            <destination>{4b5de5c7-0d41-4562-951e-ef01d1a6b0f6}</destination>
         </relationship>
     </object>
     <object class="LossyCompressionSetting" id="{dab19ef8-816c-4eae-b359-e057a615af9d}">
@@ -40,6 +51,30 @@
         </property>
         <property name="sampleRate">
             <value>48000</value>
+        </property>
+    </object>
+    <object class="PCMCompressionSetting" id="{0f2359e8-58e6-4503-b2e8-33fb097abe9c}">
+        <property name="type">
+            <value>ADPCM</value>
+        </property>
+        <property name="sampleRate">
+            <value>24000</value>
+        </property>
+    </object>
+    <object class="LossyCompressionSetting" id="{4b5de5c7-0d41-4562-951e-ef01d1a6b0f6}">
+        <property name="type">
+            <value>Vorbis</value>
+        </property>
+        <property name="quality">
+            <value>37</value>
+        </property>
+    </object>
+    <object class="PCMCompressionSetting" id="{b2d9f952-4b78-4016-9963-0338b7795206}">
+        <property name="type">
+            <value>PCM</value>
+        </property>
+        <property name="sampleRate">
+            <value>24000</value>
         </property>
     </object>
 </objects>
