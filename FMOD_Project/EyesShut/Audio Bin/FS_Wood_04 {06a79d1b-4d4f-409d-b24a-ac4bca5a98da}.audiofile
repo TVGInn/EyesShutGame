@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{06a79d1b-4d4f-409d-b24a-ac4bca5a98da}">
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.53816666666666668</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/FS_Wood_04 {19467416-e20a-4cab-9d11-342015952657}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{9744c413-757f-42a2-bb4f-ed895acda011}</destination>
+        </relationship>
+    </object>
+</objects>
